@@ -56,7 +56,7 @@ namespace SimpleScene.Demos
 			#endif
 			main3dScene.AddLight(light);
 
-			#if true
+			#if false
             if (light.ShadowMap != null) {
                 shadowmapDebugQuad = new SSObjectHUDQuad (light.ShadowMap.TextureID);
                 shadowmapDebugQuad.Scale = new Vector3(0.3f);
@@ -76,19 +76,22 @@ namespace SimpleScene.Demos
 
 		protected virtual void setupEnvironment() 
 		{
-			// add skybox cube
+            // add skybox cube
+#if true
             skyboxCube = new SSkyboxRenderer () {
                 Scale = new Vector3(10f)
             };
 
             environmentScene.AddObject(skyboxCube);
-
+#endif
             // add stars
-			skyboxStars = new SStarfieldObject(1600);
+#if true
+            skyboxStars = new SStarfieldObject(1600);
             skyboxStars.selectable = false;
 			environmentScene.AddObject(skyboxStars);
+#endif
 
-            #if true
+#if true
             // setup a sun billboard object and a sun flare spriter renderer
             {
                 var sunDiskMesh = new SSMeshDisk ();
@@ -107,9 +110,9 @@ namespace SimpleScene.Demos
                 sunFlare.renderState.depthTest = false;
                 sunFlare.renderState.depthWrite = false;
                 sunFlare.Name = "sun flare renderer";
-                sunFlareScene.AddObject (sunFlare);
+                //sunFlareScene.AddObject (sunFlare);
             }
-            #endif
+#endif
 		}
 
 		protected virtual void setupHUD() 
@@ -131,12 +134,14 @@ namespace SimpleScene.Demos
 			fpsDisplay.Scale = new Vector3 (1.0f);
 
 			// wireframe mode text....
+            /*
 			textDisplay = new SSObjectGDISurface_Text ();
 			textDisplay.alphaBlendingEnabled = true;
 			hud2dScene.AddObject (textDisplay);
 			textDisplay.Pos = new Vector3 (10f, 40f, 0f);
 			textDisplay.Scale = new Vector3 (1.0f);
 			updateTextDisplay ();
+			*/           
 		}
 
 		protected virtual void beforeRenderObjectHandler (Object obj, SSRenderConfig renderConfig)

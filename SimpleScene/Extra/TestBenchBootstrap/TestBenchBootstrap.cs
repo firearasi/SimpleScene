@@ -112,9 +112,9 @@ namespace SimpleScene.Demos
 				#endif
 				)
 		{
-			// this can be used to force other culture settings for testing..
-			// System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("nl-NL");
-
+            // this can be used to force other culture settings for testing..
+            // System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("nl-NL");
+            this.Size = new Size(1920, 1080);
 			this.Title = windowName;
 			VSync = VSyncMode.On;
 			restoreClientWindowLocation();
@@ -218,10 +218,10 @@ namespace SimpleScene.Demos
 				ctp.basePos -= ctp.Right * cameraDisplacement;
 			}
 
-			if (state.IsKeyDown(Key.Space)) {
+			if (state.IsKeyDown(Key.Q)) {
 				ctp.basePos -= ctp.Up * cameraDisplacement;
 			}
-			if (state.IsKeyDown(Key.C) || state.IsKeyDown(Key.ControlLeft)) {
+			if (state.IsKeyDown(Key.E) || state.IsKeyDown(Key.ControlLeft)) {
 				ctp.basePos += ctp.Up * cameraDisplacement;
 			}
 		}

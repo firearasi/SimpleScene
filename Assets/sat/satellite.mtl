@@ -1,0 +1,95 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v4.1.0)
+
+newmtl black_foil
+Kd 0.0996835008263588 0.0996835008263588 0.0996835008263588
+Ka 0.1000000014901161 0.1000000014901161 0.1000000014901161
+Ks 0.021552799269557 0.02404130063951015 0.02999999932944775
+Ke 0 0 0
+Ni 1
+Ns 256
+illum 2
+
+newmtl enamel_white
+Kd 1 1 1
+Ka 0.1000000014901161 0.1000000014901161 0.1000000014901161
+Ks 1 1 1
+Ke 0 0 0
+Ni 1
+Ns 256
+illum 2
+map_Kd satellite_bus_diff.png
+map_Ks satellite_bus_spec.png
+
+newmtl gold_foil
+Kd 1.5 0.5121269822120667 0
+Ka 0.1000000014901161 0.1000000014901161 0.1000000014901161
+Ks 0.5 0.3511500060558319 0.0604499988257885
+Ke 0 0 0
+Ni 1
+Ns 362.0390014648438
+illum 2
+
+newmtl gold_foil-trans
+Kd 1 1 1
+Ka 0.1000000014901161 0.1000000014901161 0.1000000014901161
+Ks 1 1 1
+Ke 0 0 0
+Ni 1
+Ns 362.0390014648438
+illum 2
+map_Kd satellite_bus_diff-trans.png
+map_Ks satellite_bus_spec.png
+
+newmtl matte_black
+Kd 0.03529410064220428 0.03529410064220428 0.03529410064220428
+Ka 0.1000000014901161 0.1000000014901161 0.1000000014901161
+Ks 0.009999999776482582 0.009999999776482582 0.009999999776482582
+Ke 0 0 0
+Ni 1
+Ns 16
+illum 2
+
+newmtl matte_titanium
+Kd 1 1 1
+Ka 0.1000000014901161 0.1000000014901161 0.1000000014901161
+Ks 1 1 1
+Ke 0 0 0
+Ni 1
+Ns 11.31369972229004
+illum 2
+map_Kd satellite_bus_diff.png
+map_Ks satellite_bus_spec.png
+
+newmtl satin_aluminium
+Kd 1 1 1
+Ka 0.1000000014901161 0.1000000014901161 0.1000000014901161
+Ks 0.5 0.5 0.5
+Ke 0 0 0
+Ni 1
+Ns 256
+illum 2
+map_Kd satellite_bus_diff.png
+
+newmtl satin_black
+Kd 1 1 1
+Ka 0.1000000014901161 0.1000000014901161 0.1000000014901161
+Ks 1 1 1
+Ke 0 0 0
+Ni 1
+Ns 32
+illum 2
+map_Kd satellite_bus_diff.png
+map_Ks satellite_bus_spec.png
+
+newmtl solar_panel
+Kd 1 1 1
+Ka 0.1000000014901161 0.1000000014901161 0.1000000014901161
+Ks 1 1 1
+Ke 0 0 0
+Ni 1
+Ns 256
+illum 2
+map_Kd satellite_panel_diff.png
+map_Ks satellite_panel_spec.png
+

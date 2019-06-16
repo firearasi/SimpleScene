@@ -72,7 +72,8 @@ namespace SimpleScene
 		public static Vector2 readVector2(string strIn, char[] separator) {
 			string[] values = FilteredSplit(strIn, separator);
 
-			ASSERT(values.Length == 2, "readVector2 found wrong number of vectors : " + strIn);
+			ASSERT(values.Length == 2 || (values.Length == 3 && parseFloat(values[2]) <= 0.001),
+              "readVector2 found wrong number of vectors : " + strIn);
 			return new Vector2(
 				parseFloat(values[0]),
 				parseFloat(values[1]));

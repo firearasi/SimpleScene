@@ -1,0 +1,2412 @@
+<!DOCTYPE html>
+<head>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  console.log(dataLayer);
+  dataLayer.push({
+    "_siftAccount": "619f459269",
+    "_user_id": "",
+    "_session_id": ""
+  });
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K5DTXS9');</script>
+<!-- End Google Tag Manager -->
+
+<script>
+window.onLoadCallback = function(){
+    gapi.load('auth2', function() {
+        gapi.auth2.init();
+        auth2 = gapi.auth2.getAuthInstance();
+        console.log('gapi loaded');
+    });
+}
+var page_language = '';
+var pl_url = '';
+</script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!--<meta name="viewport" content="width=960px">-->
+<meta name=viewport content="width=device-width, initial-scale=1">
+
+<meta name="google-signin-scope" content="profile email">
+<meta name="google-signin-client_id" content="46729814064-uosmhovr73olkshvuhurkvk4d1bvrkoo.apps.googleusercontent.com">
+<script src="https://apis.google.com/js/platform.js?onload=onLoadCallback" async defer></script>
+
+
+<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700|Open+Sans:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+<link rel="stylesheet" href="/css/css/main.css?version=2.067">
+<link rel="manifest" href="/manifest.json">
+
+<script  src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
+<!-- <script src="/js/jquery-ui.min.js"></script> -->
+<!-- <script defer src="/js/jquery.watermarkinput.js" type="text/javascript"></script> -->
+<script defer src="/js/main.js?v=2.050"></script>
+
+<!-- js tooltip -->
+<script defer src="/js/jquery.qtip-1.0.0-rc3.js"></script>
+<!-- end js tooltip -->
+
+<link rel='alternate' hreflang='de' href='https://free3d.com/de/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' /><link rel='alternate' hreflang='es' href='https://free3d.com/es/modelo-3d/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' /><link rel='alternate' hreflang='fr' href='https://free3d.com/fr/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' /><link rel='alternate' hreflang='it' href='https://free3d.com/it/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' /><link rel='alternate' hreflang='nl' href='https://free3d.com/nl/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' /><link rel='alternate' hreflang='pl' href='https://free3d.com/pl/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' /><link rel='alternate' hreflang='pt' href='https://free3d.com/pt/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' /><link rel='alternate' hreflang='sv' href='https://free3d.com/sv/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' /><link rel='alternate' hreflang='tr' href='https://free3d.com/tr/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' /><link rel='alternate' hreflang='ru' href='https://free3d.com/ru/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' /><link rel='alternate' hreflang='ko' href='https://free3d.com/ko/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' /><link rel='alternate' hreflang='ja' href='https://free3d.com/ja/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' /><link rel='alternate' hreflang='zh-hans' href='https://free3d.com/zh/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' />
+<style>
+@media all and (max-width: 905px) {
+  .top-bar .awesome-logo{
+    font-size: 25px; line-height: 42px;
+    margin: 0 10px 0 10px;
+  }
+
+  /* iconite */
+  ul.menu-top-bar li.nav-item a .icon{font-size: 23px !important;}
+  ul.menu-top-bar li.nav-item a .ss-planet{font-size: 35px !important;}
+
+
+  /* banner */
+  .block-banner{ display: none; }
+  .banner-buy1{
+    display: block;
+    height: 0 !important;
+    padding-top: 80px !important;
+  }
+  .banner-buy1 > div{ display: none; }
+    /*.p-collections-container{width: 1000px;}*/
+  .p-collection-cont{ /*margin: 0px !important;*/ }
+  /*.s-search #searchForm #searchinput{ box-shadow: 0 0 0 #000;}
+  #searchForm .tip{ color: #ccc; }*/
+  
+  /* search page */
+  .s-cat-block{
+    height: 110px;
+    overflow-y: scroll;
+    margin: 10px 0 0 0 !important;
+  }
+  .s-filter-block{
+    min-width: 191px;
+  }
+
+  /* model page */
+  .p-side-cont{
+    float: none;
+    width: 90%;
+    margin: 0 5%;
+  }
+  .p-side-cont .purchase-cont{
+    width: 48%; 
+    float: left;
+  }
+  .p-action-buttons #download-prod{
+    padding: 10px 30px;
+  }
+  .p-side-cont .p-stats-cont{
+    width: 48%;
+    float: left;
+    margin: 0 0 0 20px;
+  }
+  .p-side-cont .author{
+    width: 45%; overflow: hidden;
+    /*float: left;*/
+    padding-left: 5%;
+    margin-left: 20px;
+  }
+  table.p-specs{    
+    /*width: 48%;*/
+    /*margin-left: 52%;*/
+  }
+  .p-product-cont .main{ margin: 0; min-width: none; max-width: none !important; min-width: 0 !important;}
+  .p-product-cont .showcase{ margin: 0 !important;}
+  .p-product-cont .showcase .desc{
+    margin: 30px 5% !important;
+  }
+  .p-side-cont{
+    margin-top: 30px !important;
+  }
+
+  /* footer */
+  footer > div {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 800px) {
+
+  /* iconite */
+  ul.menu-top-bar li.nav-item a .icon{font-size: 20px !important;}
+  ul.menu-top-bar li.nav-item a .ss-planet{font-size: 30px !important;}
+
+  /* avatar & username*/
+  .logged_right{
+    
+  }
+    ul.menu-top-bar > li.logged_right > a{
+      padding: 19px 10px 25px 10px;
+    }
+    .logged_right > a > img{ display: none !important; }
+
+  .p-action-buttons{
+    padding: 28px 10% 22px 10%;
+  }
+  .p-action-buttons #add-to-basket{
+    padding: 10px 15px;
+  }
+  
+  .outside_panel_cont>.relative{
+    min-width: auto;
+  }
+  .panel-bookmarks{
+    display: none !important;
+  }
+
+  /* homepage */
+  .h-featured .paid-side .feat-img-block img{
+    display: none;
+  }
+  
+  /* categories bar */
+  .categories-bar .s-label{
+    display: none;
+  }
+
+  .categories-bar-inner{
+    /*width: 900px;*/
+  }
+  .categories-bar .categories-bar-inner a:before{
+    /*font-size: 20px;*/
+  }
+}
+@media all and (max-width: 662px) {
+  
+  .categories-bar{
+    /*overflow-x: scroll;*/
+  }
+
+  /* homepage */
+  .h-featured{
+    display: none;
+  }
+  .h-featured-bg{
+    display: none;
+  }
+
+  /* search */
+  .s-sidebar{
+    margin: 5% !important;
+    width: 90% !important;
+  }
+  .s-cat-block{
+    width: 100% !important;
+    margin: 30px 0 0 0 !important;
+  }
+  .s-sidebar #searchForm .ss-search{
+    margin-left: -60px !important;
+    margin-top: 0 !important;
+    right: 30px;
+  }
+  .s-sidebar .s-search #searchinput{
+    width: 95% !important;
+  }
+}  
+@media all and (max-width: 600px) {  
+  .comm_notiff{display: none;}
+  .msg_notiff{display: none;}
+
+  /* product main containter */
+  .p-product-cont .main{
+
+  }
+  .p-product-cont .title-bar{
+    height: 100%;
+  }
+  .p-product-cont .title-bar h1{
+    line-height: 1.4em;
+    padding: 10px 0 10px 30px;
+  }
+
+  /* product side-cont de la 2 la 1 */
+  .p-stats-cont{
+    width: 100% !important;
+    margin-left: 0px !important;
+  }
+  .p-side-cont{
+    width: 90%;
+    margin: 0 5%;
+  }
+  .p-side-cont .purchase-cont, .p-side-cont .author{
+    float: none;
+    width: 100%;
+  }  
+    .p-action-buttons #add-to-basket{
+      padding: 10px 30px 10px 25px;
+    }
+  table.p-specs{    
+    /*width: 100%;*/
+    /*margin: 0 auto;*/
+  }
+
+
+  /* home text */
+  .h-text-block .yellow{ font-size: 24px !important; }
+  .h-text-block .white, .h-text-block .white > b{ font-size: 16px !important; }
+
+}
+@media all and (max-width: 465px) {
+  ul.menu-top-bar li.nav-item{
+    display: none;
+  }
+  ul.menu-top-bar li.nav-item:first-child{ display: block !important}
+
+
+  /* search */
+  /* products -> 50% */
+  .s-results .model-entry-block {
+    width: 49.5%;
+  }
+  .s-results .model-entry-block:before{
+    width: 50% !important;
+  }
+  .s-results .model-entry{ width: 90%; margin: 5% !important;}
+  .s-results .model-entry img{
+    width: 100%;
+  }
+}
+/*@media all and (min-width: 905px) and (max-width: 1264px) {
+    .pan-body {
+        margin: 10px 0 30px 20px;
+    } 
+}*/
+</style>
+
+
+<!-- Heap -->
+<script type="text/javascript">
+    window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+    heap.load("603403163");
+
+     
+    
+</script>
+<!-- End Heap -->
+
+    <!--<title>Ultra realistic sci-fi earth 3d model - Free3D</title>-->
+    
+    <title>Ultra realistic sci-fi earth Free 3D Model - .3ds .abc .blend .dae .fbx .obj .stl .x3d - Free3D</title>
+    <meta name="description" content="Free Download, 3d Ultra realistic sci-fi earth model available in 3ds, abc, blend, dae, fbx, obj, stl, x3d ">
+        
+    <link rel="canonical" href="https://free3d.com/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html">
+
+    <style type="text/css">
+        body{
+            /*background: #f5f5f5;*/
+            background: #f2f3f5;
+        }
+    </style>
+</head>
+        
+<body class="product-page   ">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K5DTXS9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<!-- Facebook Social Login -->
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+        appId      : '1818674601484977',
+        cookie     : true,  // enable cookies to allow the server to access 
+                            // the session
+        xfbml      : true,  // parse social plugins on this page
+        version    : 'v2.8', // use graph api version 2.8
+        status     : true
+        });
+
+        // Now that we've initialized the JavaScript SDK, we call 
+        // FB.getLoginStatus().  This function gets the state of the
+        // person visiting this page and can return one of three states to
+        // the callback you provide.  They can be:
+        //
+        // 1. Logged into your app ('connected')
+        // 2. Logged into Facebook, but not your app ('not_authorized')
+        // 3. Not logged into Facebook and can't tell if they are logged into
+        //    your app or not.
+        //
+        // These three cases are handled in the callback function.
+
+        /*FB.getLoginStatus(function(response) {
+            //statusChangeCallback(response);
+        });*/
+
+    };
+
+    // Load the SDK asynchronously
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+
+    /*function statusChangeCallback(response) {
+        console.log('statusChangeCallback');
+        console.log(response);
+        // The response object is returned with a status field that lets the
+        // app know the current login status of the person.
+        // Full docs on the response object can be found in the documentation
+        // for FB.getLoginStatus().
+        if (response.status === 'connected') {
+        // Logged into your app and Facebook.
+        testAPI();
+
+        FB.api('/me?fields=name, email, picture', function(response) {
+            if (response){
+                var email = response["email"];
+                data = {
+                    "email": email,
+                    "id_token_facebook": response['id']
+                }
+                
+            }
+            });
+        } else {
+            // The person is not logged into your app or we are unable to tell.
+        }
+    }*/
+</script>
+<!-- Facebook Social Login End -->
+
+<!-- Google Social Login -->
+<script>
+    
+    /*var auth2 = gapi.auth2.getAuthInstance();
+        auth2.signOut().then(function () {
+        console.log('User signed out.');
+        
+    });*/
+</script>
+<!-- Google Social Login End -->
+
+<!-- General Login Scripts -->
+
+<script>
+    $(document).ready(function(){
+
+        $('.toggle-debug-data').click( function(e) {
+            $('.debug-data').toggleClass('hidden');
+        });
+        $('.toggle-parent').click(function(e){
+            console.log($(this).attr('data-label'));
+            if ($(this).attr('data-label') === 'Close' || typeof $(this).attr('data-label') === 'undefined') {
+                $(this).attr('data-label', $(this).html());
+                $(this).html('Close');  
+            } else {
+                $(this).html($(this).attr('data-label'));
+                $(this).attr('data-label', 'Close');
+
+            }
+            
+            $(this).parent().toggleClass('open');
+        });
+
+        
+
+        function openSignupOverlayForSocial() {
+            var overlay = $("#signup-overlay");
+            overlay.fadeIn(200);
+            overlay.css("background-color", "rgba(42, 48, 58, 0.95)");
+            overlay.find(".title").html('<span class="highlight">Step 1:</span> Create an account or login');
+            overlay.find("#signup").append('<input type="hidden" value="true" name="skip-ver">');
+
+            overlay.find('.pick_username_form').removeClass('hidden');
+            overlay.find('.social_login_label').addClass('hidden');
+            overlay.find('.regular-signup').addClass('hidden');
+        }
+
+
+        //check to see the new social login
+        function checkNewSocialLogin(data){
+
+            data["action"] = "checkNewUser";
+
+            $.ajax({
+                type: "POST",
+                url: "/post.php",
+                data: data,
+                async: true,
+                dataType: "json",
+                success: function( response ){
+                    //if logged in
+                    if (response['loggedin'] === true) {
+                        window.location.reload();
+                    } else {
+                        //if new user - ask user to pick a username
+                        if (response['new'] === true) {
+
+                            $('.pick_username').attr('data-social_login_type', response['social_data']['type']);
+
+                            if (response['available_username']){
+                                $(".pick_username").val(response['available_username']);
+                            }
+                            $('.pick_username_form .error_messages').addClass('hidden');
+                            var add_missing_email = $('.add_missing_email');
+                            add_missing_email.addClass('hidden');
+                            if (response['needs_email'] === true) {
+                                add_missing_email.removeClass('hidden');
+                            }
+
+                            //$(".pick_username_form").removeClass("hidden");
+                            $('.social_login_btn.google').removeClass('waiting');
+                            $('.social_login_btn.facebook').removeClass('waiting');
+                            openSignupOverlayForSocial();
+                        }
+                    }
+                    console.log(response);
+                },
+                error: function( response ){
+                    console.log("error");
+                    return 'error';
+                    $('.social_login_btn.google').removeClass('waiting');
+                    $('.social_login_btn.facebook').removeClass('waiting');
+                }
+            });
+        }
+
+        //try to create account with the username chosen by the user
+        function createAccountWithUsername(data) {
+
+            var slo_error = $('.social_login_options .error_messages');
+            console.log(99999);
+            data['action'] = "checkNewUser";
+            $.ajax({
+                type: "POST",
+                url: "/post.php",
+                data: data,
+                async: true,
+                dataType: "json",
+                success: function( response ){
+                    if (response['loggedin'] === true){
+                        window.location.reload();
+                    } else {
+                        console.log(response);
+
+                        $(slo_error).html(" ");
+                        if (typeof response['errors'] != 'undefined'){
+                            response['errors'].forEach(function(res_error) {
+                                $(slo_error).removeClass('hidden');
+                                $(slo_error).append('<div class="alert alert-error m10">' + res_error + '</div>')
+                            });
+                        }
+                        return false;
+                    }
+                },
+                error: function( response ){
+
+                    $('.social_login_btn.google').removeClass('waiting');
+                    $('.social_login_btn.facebook').removeClass('waiting');
+                    
+                    $(slo_error).html(" ");
+                    if (typeof response['errors'] != 'undefined'){
+                        response['errors'].forEach(function(res_error) {
+                            $(slo_error).removeClass('hidden');
+                            $(slo_error).append('<div class="alert alert-error m10">' + res_error + '</div>')
+                        });
+                    }
+                    return false;
+                }
+            });
+        }
+
+        //click handler for the facebook button
+        $(document).on('click','.social_login_btn.facebook', function(e) {
+
+            var waiting = $('.social_login_btn.facebook').hasClass('waiting');
+            if (waiting === false) {
+                $('.social_login_btn.facebook').addClass('waiting');
+                $('.social_login_options').removeClass('active');
+                $(e.target).closest('.social_login_options').addClass('active');
+
+                //if FB object is available
+                if (typeof FB != 'undefined'){
+                    FB.getLoginStatus(function(response){
+
+                        //user is connected
+                        if (response.status == 'connected'){
+                            var authResponse = response.authResponse;
+                            data = {
+                                "social_login_type": "facebook",
+                                "id": authResponse.userID,
+                                "access_token": authResponse.accessToken
+                            }
+                            checkNewSocialLogin(data);
+                        } else {
+                            //user is not connected - prompt user to log in
+                            FB.login(function(response) {
+                                var authResponse = response.authResponse;
+                                data = {
+                                    "social_login_type": "facebook",
+                                    "id": authResponse.userID,
+                                    "access_token": authResponse.accessToken
+                                }
+                                checkNewSocialLogin(data);
+                            });
+                        }
+                    });
+                } else {
+                    console.log('facebook not loaded');
+                    $('.social_login_btn.google').removeClass('waiting');
+                    $('.social_login_btn.facebook').removeClass('waiting');
+                }
+            }
+            
+        });
+
+        element = document.querySelector('.social_login_btn.google');        
+
+        $(document).on('click', '.social_login_btn.google', function(e) {
+
+            var waiting = $('.social_login_btn.google').hasClass('waiting');
+            if (waiting === false) {
+                $('.social_login_btn.google').addClass('waiting');
+                $('.social_login_options').removeClass('active');
+                $(e.target).closest('.social_login_options').addClass('active');
+
+                auth2 = gapi.auth2.getAuthInstance();
+                
+                auth2.signIn().then(
+                    function (googleUser){
+                        $('.social_login_options').removeClass('active');
+                        $(element).closest('.social_login_options').addClass('active');
+
+                        var authResponse = googleUser.getAuthResponse();
+                        if (authResponse) {
+                            data = {
+                                "social_login_type": "google",
+                                "id_token": authResponse.id_token,
+                                "access_token": authResponse.access_token
+                            }
+                            checkNewSocialLogin(data);
+                        } 
+
+                        console.log('Signed in: ' + googleUser.getBasicProfile().getName());
+                }, function (error){
+                    console.log('Sign-in error', error);
+                    $('.social_login_btn.google').removeClass('waiting');
+                    $('.social_login_btn.facebook').removeClass('waiting');
+                });
+            }
+        });
+        
+
+        //submit username to try and attach login data
+        $('body').on('click', ".pick_username_form input[type='submit']", function(e){
+            e.preventDefault();
+
+            var slo = $(e.target).closest('.social_login_options');
+            var username = $(slo).find(".pick_username");
+            var email = $(slo).find('.pick_email');
+            var agree_terms = $(slo).find(".agree_check");
+            var agree_subscribe = $(slo).find(".subscribe_check");
+            var slo_error = $(slo).find('.error_messages');
+            
+            // console.log(11111);
+            // console.log($(username).attr('data-social_login_type'));
+            // console.log(username);
+            // console.log(slo);
+            // console.log($(e.target));
+
+            switch ($(username).attr('data-social_login_type')) {  
+                case 'facebook':
+                    if (typeof FB != 'undefined') {
+                        console.log('facebook');
+                        FB.getLoginStatus(function(response) {
+                            if (response.status == 'connected'){
+                                var authResponse = response.authResponse;
+                                data = {
+                                    "username" : username.val(),
+                                    "email": email.val(),
+                                    "social_login_type": "facebook",
+                                    "id": authResponse.userID,
+                                    "access_token": authResponse.accessToken
+                                }
+
+                                if ($(agree_subscribe).is(":checked") === true) {
+                                    data["agree_subscribe"] = true;
+                                } else { data["agree_subscribe"] = false; }
+
+                                // console.log(data);
+
+                                if ($(agree_terms).is(":checked") === true) {
+                                    $(slo_error).addClass('hidden');
+                                    createAccountWithUsername(data);
+                                } else {
+                                    $(slo_error).html('<div class="alert alert-error m10">To continue you will have to accept the Terms and Conditions</div>').removeClass('hidden');
+                                }
+                            }
+                        });
+                    }
+                break;
+                case 'google':
+                    console.log('google');
+                    if (typeof auth2 != 'undefined') {
+                        var authResponse = auth2.currentUser.get().getAuthResponse();
+                        data = {
+                            "username" : username.val(),
+                            "social_login_type": "google",
+                            "id_token": authResponse.id_token,
+                            "access_token": authResponse.access_token
+                        }
+
+                        if ($(agree_subscribe).is(":checked") === true) {
+                            data["agree_subscribe"] = true;
+                        } else { data["agree_subscribe"] = false; }
+
+                        // console.log(data);
+
+                        //has agreed to the terms
+                        if ($(agree_terms).is(":checked") === true) {
+                            $(slo_error).addClass('hidden');
+
+                            createAccountWithUsername(data);
+                        } else {
+                            $(slo_error).html('<div class="alert alert-error m10">To continue you will have to accept the Terms and Conditions</div>').removeClass('hidden');
+                        }
+                    }
+                    console.log(auth2.currentUser);
+                break;
+            }
+        });
+    });
+
+    $("#log_out").click(function(e){
+        window.location.href = "/?status=loggedout";
+    });
+</script>
+<!-- General Login Scripts End -->
+
+
+
+
+<style>
+    /* model entry -- icons game-ready/rigged */
+    .sec_entry_group{
+        position: absolute;
+        margin: -5px 0 0 -5px;
+    }
+    .sec_entry_icon{
+        font-size: 16px; color: #fff;
+        width: 10px; height: 10px;
+        border-radius: 10px;
+        overflow: hidden; float: left;
+    }
+    .sei_game{
+        background: #5445e4; color: #5445e4;
+    }
+    .sei_3dp{
+        background: #3b8cde; color: #3b8cde;
+    }
+    .sei_rigged{
+        background: #51ac5f; color: #51ac5f;
+    }
+    .sei_animated{
+        background: #edcd1a; color: #edcd1a;
+    }
+    .sec_entry_icon > span{ /* icon position */
+        position: relative; top: 5px; left: 6px;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    /* hover action => enlarge and display icons */
+    .model-entry:hover .sec_entry_icon{
+        color: #fff;
+        width: 30px; height: 30px; border-radius: 20px;
+    }
+    .model-entry:hover .sei_animated{
+        color: #000;
+    }
+</style>
+
+
+
+<!-- Top Bar -->
+<div class="top-bar">
+        <div class="loading-top-yt"></div>
+    <div class="top-bar-inner">
+        <a href="/" class="awesome-logo">
+            Free3D
+                    </a>
+                <!-- Search -->
+        <div class="nav-search-bar">
+            <form method="GET" action="/3d-models/search.php" id="searchForm">
+                <input type="text" class="search-bar" name="q" placeholder="search 3d models ..." value="ultra realistic sci-fi earth">
+                <button class="ss-search" id="search-button2" onclick="submitSearchForm(); return false;"></button>
+                <input type="hidden" value="0" name="maxPrice">                                <input type="hidden" value="" name="page_language">                <input type="hidden" value="0" name="type">
+                            </form>
+            <!-- <form method="GET" action="/3d-models/search.php" name="searchForm"> -->
+        </div>
+                <!-- Links -->
+        <div class="nav-links">
+            <a href="/3d-models/" class="nav-link free-search active"><span class="fader">Free 3D Models</span></a>
+            <a href="/premium-3d-models/" class="nav-link paid-search "><span class="fader">Premium 3D Models</span></a>
+        </div>
+
+         
+                <!--  Guest -- not logged in -->             
+            <div class="login-or-register">
+                <!-- Login or Register -->
+                <div class="account-hamburger ham-register">
+                    <div class="username signup-button">Create free Account</div>
+                </div>
+                <div class="inbetween-ham">or</div>
+                <div class="account-hamburger ham-login">
+                    <div class="username login-button">Login</div>
+                    <div class="dropdownContain outside_login_cont" id="login-container">
+                        <div class="dropOut">
+                            <div class="triangle"></div>
+                            <form method="post" id="signin" action="">
+                                <p id="you-have-to-login" class='alert' style='display:none'>
+                                    <strong>Please Login!</strong><br>In order to proceed you need to be logged in.                                </p>
+                                <p>
+                                    <label for="username"> Email</label>
+                                    <input id="username" name="un" tabindex="1" required title="username" type="text">
+                                </p>
+                                <p>
+                                    <label> Password</label>
+                                    <input name="pwd" tabindex="2" required title="password" type="password">
+                                </p>
+                                <p class="submit_row">    
+                                    <input  value="Login" tabindex="3" class="btn-stock p5 m5 login_submit" name="lsubmit" type="submit">
+                                    <span class="remember">
+                                        <input name="lremember_me" value="1" tabindex="3" type="checkbox" checked="checked">
+                                        <label> &nbsp;Remember me</label>
+                                    </span>
+                                </p>
+                                <div class="clearfix"></div>
+                            </form>
+                            
+                            <div class="social_login_options">
+                                <span class="social_login_label">or login with: </span>
+
+                                <div class="social_buttons_container">                   
+                                    <div class="social_login_btn google">
+                                        Google</div>
+                                    <div class="social_login_btn facebook">
+                                    Facebook
+                                    </div>
+                                </div>
+                               <!--  <div class="pick_username_form hidden">
+                                    <p>
+                                        <label class="pick_username_label">Please select a username</label>
+                                        <input type="text" class="pick_username" name="username" placeholder="username" />
+                                    </p>
+                                    <p class="agree">                          
+                                        <input id="su_agree_si" class="agree_check" name="Agree" value="1" tabindex="8" type="checkbox"required>
+                                        <label for="su_agree_si"> &nbsp;I agree with the <a href="/terms-conditions" target="_blank" rel="nofollow">terms of service</a>.</label>
+                                    </p>
+                                    <p class="error_messages hidden"></p>
+                                    <p>
+                                        <input type="submit" class="pick_username_submit btn-stock p5 m5" value="Submit"/>
+                                    </p>
+                                </div> -->
+                                <!--a href="" id="signoutg">Sign out G</a-->
+                            </div>
+                            <br>
+                            <p class="forgot"> <a href="/login?ref=reset-password" rel="nofollow">Forgot Password?</a> </p>
+                        </div>                
+                    </div>
+                </div>
+            </div>
+                        <div class="clearfix"></div>
+        </div>        
+    </div>
+    <div class="slidein-menu" id="top_bar_slidein">
+             <div class="toggle-btn"></div>
+             <div class="content-container"></div>
+    </div>
+    
+        <script type="text/javascript">
+            // signup inainte de a se adauga in cos
+            //// 
+            $(document).ready(function(){
+                // add to basket
+                $("#add-to-basket").click(function(e) {
+                    openSignupOverlay(e);
+                });
+                $(".bookmark-btn").click(function(e) {
+                    openSignupOverlay(e);
+                });
+                $("#create-acc-btn").click(function(e) {
+                    openSignupOverlay(e);
+                });
+                $(".cgpn-ref").click(function(e) {
+                    $(this).fadeOut(200);
+                });
+            });
+        </script>
+
+        <!-- Sign up -->
+         <div class="dim" id="signup-overlay" > 
+            <div class="signup-container">
+                <div class="signup-promo">
+                    <div class="title"><span class="highlight">Step 1:</span> Create an account or login</div>
+                    <div class="subtitle">Join a vivid community of 3D artists<br> from around the world! Download free 3d models, engage with the community, share your work.</div>
+                </div>   
+
+                <div class="signup-form">
+                    <div class="ss-delete" id="close-dim"></div>
+                   
+                    <form method="post" id="signup" action="">
+                        <div class="regular-signup">
+                                                        <p>
+                                <label for="su_email"> Email</label><br>
+                                <input id="su_email" name="Email" title="email" tabindex="1" type="text" placeholder="" required>
+                            </p>
+                            <p>
+                                <label for="su_username"> Username</label><br>
+                                <input id="su_username" name="Username" title="username" tabindex="2" type="text" placeholder="without spaces please :)" required>
+                            </p>
+                            <p>
+                                <label for="su_password"> Password</label><br>
+                                <input id="su_password" name="Password" title="password" tabindex="3" type="password" placeholder="" required>
+                            </p>
+                            <p class="agree">                          
+                                <input id="su_agree" name="Agree" value="1" tabindex="8" type="checkbox"required>
+                                <label for="su_agree"> &nbsp;I agree with the <a href='/terms-conditions' target='_blank' rel='nofollow'>terms of service</a>.</label>
+                            </p>
+                             <p class="agree">                          
+                                <input id="su_subscribe" class="agree_check" name="Subscribe" value="1" tabindex="8" type="checkbox" checked="checked">
+                                <label for="su_subscribe"> &nbsp;Subscribe to the Free3D newsletter <span style="font-size: 16px">🆓</span></label>
+                            </p>
+                            <p>                          
+                                <input  value="Sign Up →" tabindex="4" class="btn-stock" name="su_submit" type="submit">
+                            </p>
+                        </div>
+                        </form>
+                        <div class="social_login_options">
+                            <span class="social_login_label">Already have an account?</span>
+
+                            <div class="social_buttons_container">    
+                            <a class="btn-stock login-page-btn" href="/login" rel="nofollow">Login</a>
+                                <div class="social_login_btn google">
+                                    Google</div>
+                                <div class="social_login_btn facebook">
+                                Facebook
+                                </div>
+                            </div>
+                            <div class="pick_username_form hidden">
+                                <p class="add_missing_email hidden">
+                                    <label class="pick_email_label">Please add a valid email</label>
+                                    <input type="text" class="pick_email" name="email" placeholder="email" />
+                                </p>
+                                <p>
+                                    <label class="pick_username_label">Please select a username</label>
+                                    <input type="text" class="pick_username" name="username" placeholder="username" />
+                                </p>
+                                <p class="agree">                          
+                                    <input id="su_agree_su" class="agree_check" value="1" tabindex="8" type="checkbox"required>
+                                    <label for="su_agree_su"> &nbsp;I agree with the <a href='/terms-conditions' target='_blank' rel='nofollow'>terms of service</a>.</label>
+                                </p>
+
+                                 <p class="agree">                          
+                                    <input id="su_subscribe" class="subscribe_check" value="1" tabindex="8" type="checkbox" checked="checked">
+                                    <label for="su_subscribe"> &nbsp;Subscribe to the Free3D newsletter <span style="font-size: 16px">�</span></label>
+                                </p>
+                                <p class="error_messages hidden"></p>
+                                <p>
+                                    <input type="submit" class="pick_username_submit btn-stock p5 m5" value="Sign Up →"/>
+                                </p>
+                            </div>
+                            <!--a href="" id="signoutg">Sign out G</a-->
+                        </div>
+                                            
+                    <div class="clearfix"></div>
+                </div>
+                
+                <!-- <div class="or-login">
+                    Do you already have an account?
+                    <button class="right btn-line blue su-option-login">Login</button>          
+                </div>
+                <div class="accepted-accounts">
+                    <div class="text">Other accounts</div>
+                    <div class="tf3d-font" style="font-size: 18px; font-weight: bolder; text-align: center; color: #4f5867">TF3DM.com</div>
+                </div> -->
+
+            </div>
+         </div>
+         <!--div class="slidein-menu open" id="top_bar_slidein">
+             <div class="toggle-btn"></div>
+             <div class="content-container"></div>
+         </div-->
+
+</div>
+<!-- Top Bar End -->   
+
+         <style type="text/css">
+     .panel-bookmarks{
+        display: none;
+    }
+    .outside_panel_cont > .relative{
+        width: 195px;
+    }
+    .outside_panel_cont .top_triangle_back{
+        left: 25px;
+    }
+    
+</style>
+
+<script>
+/*
+===============================
+###     TOP BAR
+###   YT like Loader
+===============================
+*/
+var loadbar_yt = $('.loading-top-yt');
+function yt_begin(){
+    loadbar_yt.animate({width: "30%"},500);
+}
+function yt_success(){
+    // animatie loading bar SUCCES
+    loadbar_yt.animate({width: "100%"},500, function(){
+        $(this).css({width: 0});
+    });
+}
+function yt_error(){
+    // animatie loading bar eroare
+    loadbar_yt.animate({width: "50%"}, 500, function(){
+        $(this).css({backgroundColor: '#B94A48', 'box-shadow': '0 0 10px #B94A48'}); // rosu
+        $(this).animate({width: "47%"}, 1000, function(){ // retragere
+            $(this).css({backgroundColor: '#5EB56B', 'box-shadow': '0 0 10px #5EB56B'}); // verde
+            $(this).css({width: 0});
+        });
+    });
+}
+</script>
+    <div class="categories-bar free">
+        <div class="categories-bar-inner">
+        <a href="/3d-models/architecture" class="category-link ss-building  " alt="free 3D Architecture Models " title="free 3D Architecture Models "><span class="label">Architecture</span></a><a href="/3d-models/vehicles" class="category-link ss-car  " alt="free 3D Vehicles Models " title="free 3D Vehicles Models "><span class="label">Vehicles</span></a><a href="/3d-models/characters" class="category-link ss-usergroup  " alt="free 3D Characters Models " title="free 3D Characters Models "><span class="label">Characters</span></a><a href="/3d-models/aircraft" class="category-link ss-plane  " alt="free 3D Aircraft Models " title="free 3D Aircraft Models "><span class="label">Aircraft</span></a><a href="/3d-models/furniture" class="category-link ss-lodging  " alt="free 3D Furniture Models " title="free 3D Furniture Models "><span class="label">Furniture</span></a><a href="/3d-models/electronics" class="category-link ss-smartphone  " alt="free 3D Electronics Models " title="free 3D Electronics Models "><span class="label">Electronics</span></a><a href="/3d-models/animals" class="category-link ss-tropicalfish  " alt="free 3D Animals Models " title="free 3D Animals Models "><span class="label">Animals</span></a><a href="/3d-models/plants" class="category-link ss-leaf  " alt="free 3D Plants Models " title="free 3D Plants Models "><span class="label">Plants</span></a><a href="/3d-models/weapons" class="category-link ss-knife  " alt="free 3D Weapons Models " title="free 3D Weapons Models "><span class="label">Weapons</span></a><a href="/3d-models/sports" class="category-link ss-football  " alt="free 3D Sports Models " title="free 3D Sports Models "><span class="label">Sports</span></a><a href="/3d-models/food" class="category-link ss-icecream  " alt="free 3D Food Models " title="free 3D Food Models "><span class="label">Food</span></a><a href="/3d-models/anatomy" class="category-link ss-anatomicalheart  " alt="free 3D Anatomy Models " title="free 3D Anatomy Models "><span class="label">Anatomy</span></a>        
+        <a href="/add" class="category-link ss-plus" title="Submit Free 3D your model" rel="nofollow"></a>
+    </div>
+</div>
+<div class="clearfix"></div>
+
+
+
+
+    <!------------  Bookmark msg  -------------------->
+    <div id="added-bookmark" class='alert alert-success spacer-20px'> <strong>Bookmarked</strong></div>
+    <div id="removed-bookmark" class='alert spacer-20px'><strong>Bookmark removed</strong></div>
+
+    <!-- Product container -->
+    <div class='product-page-container free-product similar-left has-clearfix' data-seo_url='ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150'><div class='flash-messages'></div><div class='similar-products-container left  has-clearfix'>
+                    <!--<h2 class='section-title similar-products-title'>You might also like</h2>-->
+                    <div id="product-similar-products" class="product-similar-products recommended-products"><div class='search-result  premium' data-seo_url='sci-fi-part-accessories-pack-10-35'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-part-accessories-pack-10-35.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://preview.free3d.com/img-dev/2017/06/1725697993673279337/le3xdmkf-180.jpg' alt='Sci Fi part accessories pack(10) 3d model' title='Sci Fi part accessories pack(10) 3d model' rel='{"pret":"&#36;6","type":".unknown .blend","standard":null,"imgd":"https:\/\/preview.free3d.com\/img-dev\/2017\/06\/1725697993673279337\/le3xdmkf-900.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-part-accessories-pack-10-35.html' class='link product-page-link'>Sci Fi part accessories pack(10)</a></div>
+			<span class='search-result__format'>.unknown .blend</span>
+			<div class='search-result__footer'>	
+			<span data-price='6' class='search-result__price  product-page-link'><span class="dollar">&#36;</span>6 </span>
+			<span class='search-result__stats'><span class="stat-item views">767</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href="/3d-model/sci-fi-part-accessories-pack-10-35.html" class="product-tools product-tools__premium product-page-link"><span class="product-tool product-tool__zoom"></span><!--span class="product-tool product-tool__add-to-cart" data-seo_url="sci-fi-part-accessories-pack-10-35"></span--></a>
+			</div>
+			
+		</div><div class='search-result  premium' data-seo_url='sci-fi-cables-5947'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-cables-5947.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://preview.free3d.com/img-dev/2015/08/1724839597340362176/594s5210-180.jpg' alt='Sci-Fi Cables 3d model' title='Sci-Fi Cables 3d model' rel='{"pret":"&#36;5","type":".max .3ds .obj .ma .fbx","standard":null,"imgd":"https:\/\/preview.free3d.com\/img-dev\/2015\/08\/1724839597340362176\/594s5210-900.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-cables-5947.html' class='link product-page-link'>Sci-Fi Cables</a></div>
+			<span class='search-result__format'>.max .3ds .obj .ma .fbx</span>
+			<div class='search-result__footer'>	
+			<span data-price='5' class='search-result__price  product-page-link'><span class="dollar">&#36;</span>5 </span>
+			<span class='search-result__stats'><span class="stat-item views">1,565</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href="/3d-model/sci-fi-cables-5947.html" class="product-tools product-tools__premium product-page-link"><span class="product-tool product-tool__zoom"></span><!--span class="product-tool product-tool__add-to-cart" data-seo_url="sci-fi-cables-5947"></span--></a>
+			</div>
+			
+		</div><div class='search-result  ' data-seo_url='planet-earth-99065'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/planet-earth-99065.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://free3d.com/imgd/s93034-planet-earth-99065.jpg' alt='Realistic Planet Earth 3d model' title='Realistic Planet Earth 3d model' rel='{"pret":"&#36;0","type":".3ds .obj .max","standard":null,"imgd":"https:\/\/free3d.com\/imgd\/l93034-planet-earth-99065.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/planet-earth-99065.html' class='link product-page-link'>Realistic Planet Earth</a></div>
+			<span class='search-result__format'>.3ds .obj .max</span>
+			<div class='search-result__footer'>	
+			<span data-price='0' class='search-result__price free  product-page-link'>FREE </span>
+			<span class='search-result__stats'><span class="stat-item downloads">94,791</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href='/3d-model/planet-earth-99065.html' class='product-tools product-page-link'><span class='product-tool product-tool__zoom'></span></a>
+			</div>
+			
+		</div><div class='search-result  premium' data-seo_url='sci-fi-cube-5909'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-cube-5909.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://preview.free3d.com/img-dev/2015/05/1733489045809399578/vzia448p-180.jpg' alt='Sci-fi cube 3d model' title='Sci-fi cube 3d model' rel='{"pret":"&#36;5","type":".max","standard":null,"imgd":"https:\/\/preview.free3d.com\/img-dev\/2015\/05\/1733489045809399578\/vzia448p-900.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-cube-5909.html' class='link product-page-link'>Sci-fi cube</a></div>
+			<span class='search-result__format'>.max</span>
+			<div class='search-result__footer'>	
+			<span data-price='5' class='search-result__price  product-page-link'><span class="dollar">&#36;</span>5 </span>
+			<span class='search-result__stats'><span class="stat-item views">1,789</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href="/3d-model/sci-fi-cube-5909.html" class="product-tools product-tools__premium product-page-link"><span class="product-tool product-tool__zoom"></span><!--span class="product-tool product-tool__add-to-cart" data-seo_url="sci-fi-cube-5909"></span--></a>
+			</div>
+			
+		</div><div class='search-result  ' data-seo_url='realistic-earth-93942'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/realistic-earth-93942.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://free3d.com/imgd/s14705-realistic-earth-93942.png' alt='Earth 3d model' title='Earth 3d model' rel='{"pret":"&#36;0","type":".3ds .obj .dae .blend .fbx .mtl .stl","standard":null,"imgd":"https:\/\/free3d.com\/imgd\/l14705-realistic-earth-93942.png"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/realistic-earth-93942.html' class='link product-page-link'>Earth</a></div>
+			<span class='search-result__format'>.3ds .obj .dae .blend .fbx .mtl .stl</span>
+			<div class='search-result__footer'>	
+			<span data-price='0' class='search-result__price free  product-page-link'>FREE </span>
+			<span class='search-result__stats'><span class="stat-item downloads">31,143</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href='/3d-model/realistic-earth-93942.html' class='product-tools product-page-link'><span class='product-tool product-tool__zoom'></span></a>
+			</div>
+			
+		</div><div class='search-result  premium' data-seo_url='sci-fi-hydroponics-8677'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-hydroponics-8677.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://preview.free3d.com/img-dev/2016/12/1721279786501801411/sj4gf3b0-180.jpg' alt='Sci-fi Hydroponics 3d model' title='Sci-fi Hydroponics 3d model' rel='{"pret":"&#36;12","type":".obj .fbx .dae .blend .3ds","standard":null,"imgd":"https:\/\/preview.free3d.com\/img-dev\/2016\/12\/1721279786501801411\/sj4gf3b0-900.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-hydroponics-8677.html' class='link product-page-link'>Sci-fi Hydroponics</a></div>
+			<span class='search-result__format'>.obj .fbx .dae .blend .3ds</span>
+			<div class='search-result__footer'>	
+			<span data-price='12' class='search-result__price  product-page-link'><span class="dollar">&#36;</span>12 </span>
+			<span class='search-result__stats'><span class="stat-item views">1,081</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href="/3d-model/sci-fi-hydroponics-8677.html" class="product-tools product-tools__premium product-page-link"><span class="product-tool product-tool__zoom"></span><!--span class="product-tool product-tool__add-to-cart" data-seo_url="sci-fi-hydroponics-8677"></span--></a>
+			</div>
+			
+		</div><div class='search-result  ' data-seo_url='si-fi-freighter-13915'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/si-fi-freighter-13915.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://free3d.com/imgd/s30369-si-fi-freighter-13915.png' alt='Sci-Fi Freighter 3d model' title='Sci-Fi Freighter 3d model' rel='{"pret":"&#36;0","type":".3ds .obj .dae .blend .fbx .dxf .stl","standard":null,"imgd":"https:\/\/free3d.com\/imgd\/l30369-si-fi-freighter-13915.png"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/si-fi-freighter-13915.html' class='link product-page-link'>Sci-Fi Freighter</a></div>
+			<span class='search-result__format'>.3ds .obj .dae .blend .fbx .dxf .stl</span>
+			<div class='search-result__footer'>	
+			<span data-price='0' class='search-result__price free  product-page-link'>FREE </span>
+			<span class='search-result__stats'><span class="stat-item downloads">4,451</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'><div class='sec_entry_icon sei_game'><span class='ss-fivedie'></span></div><div class='sec_entry_icon sei_rigged'><span class='ss-yoga'></span></div><div class='sec_entry_icon sei_animated'><span class='ss-hiker'></span></div></div>
+			<a href='/3d-model/si-fi-freighter-13915.html' class='product-tools product-page-link'><span class='product-tool product-tool__zoom'></span></a>
+			</div>
+			
+		</div><div class='search-result  premium' data-seo_url='sci-fi-console-1789'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-console-1789.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://preview.free3d.com/img-dev/2017/06/1733505878281160274/w7d6hnqx-180.jpg' alt='Sci Fi console 3d model' title='Sci Fi console 3d model' rel='{"pret":"&#36;1","type":".unknown .obj .fbx .blend .3ds","standard":null,"imgd":"https:\/\/preview.free3d.com\/img-dev\/2017\/06\/1733505878281160274\/w7d6hnqx-900.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-console-1789.html' class='link product-page-link'>Sci Fi console</a></div>
+			<span class='search-result__format'>.unknown .obj .fbx .blend .3ds</span>
+			<div class='search-result__footer'>	
+			<span data-price='1' class='search-result__price  product-page-link'><span class="dollar">&#36;</span>1 </span>
+			<span class='search-result__stats'><span class="stat-item views">756</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href="/3d-model/sci-fi-console-1789.html" class="product-tools product-tools__premium product-page-link"><span class="product-tool product-tool__zoom"></span><!--span class="product-tool product-tool__add-to-cart" data-seo_url="sci-fi-console-1789"></span--></a>
+			</div>
+			
+		</div><div class='search-result  ' data-seo_url='realistic-tree-pack-3-trees-95419'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/realistic-tree-pack-3-trees-95419.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://free3d.com/imgd/s88771-realistic-tree-pack-3-trees-95419.png' alt='Realistic Trees Scene 3d model' title='Realistic Trees Scene 3d model' rel='{"pret":"&#36;0","type":".3ds .obj .blend","standard":null,"imgd":"https:\/\/free3d.com\/imgd\/l88771-realistic-tree-pack-3-trees-95419.png"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/realistic-tree-pack-3-trees-95419.html' class='link product-page-link'>Realistic Trees Scene</a></div>
+			<span class='search-result__format'>.3ds .obj .blend</span>
+			<div class='search-result__footer'>	
+			<span data-price='0' class='search-result__price free  product-page-link'>FREE </span>
+			<span class='search-result__stats'><span class="stat-item downloads">167,031</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href='/3d-model/realistic-tree-pack-3-trees-95419.html' class='product-tools product-page-link'><span class='product-tool product-tool__zoom'></span></a>
+			</div>
+			
+		</div><div class='search-result  premium' data-seo_url='sci-fi-ship-5356'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-ship-5356.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://preview.free3d.com/img-dev/2017/02/1721282491567834251/re1ait67-180.jpg' alt='Sci-Fi Ship 3d model' title='Sci-Fi Ship 3d model' rel='{"pret":"&#36;3","type":".ma .obj .fbx","standard":null,"imgd":"https:\/\/preview.free3d.com\/img-dev\/2017\/02\/1721282491567834251\/re1ait67-900.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-ship-5356.html' class='link product-page-link'>Sci-Fi Ship</a></div>
+			<span class='search-result__format'>.ma .obj .fbx</span>
+			<div class='search-result__footer'>	
+			<span data-price='3' class='search-result__price  product-page-link'><span class="dollar">&#36;</span>3 </span>
+			<span class='search-result__stats'><span class="stat-item views">1,119</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href="/3d-model/sci-fi-ship-5356.html" class="product-tools product-tools__premium product-page-link"><span class="product-tool product-tool__zoom"></span><!--span class="product-tool product-tool__add-to-cart" data-seo_url="sci-fi-ship-5356"></span--></a>
+			</div>
+			
+		</div><div class='search-result  ' data-seo_url='sci-fi-drone--58689'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-drone--58689.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://free3d.com/imgd/s13259-sci-fi-drone--58689.png' alt='sci-fi drone 3d model' title='sci-fi drone 3d model' rel='{"pret":"&#36;0","type":".3ds .obj .c4d .3dm","standard":null,"imgd":"https:\/\/free3d.com\/imgd\/l13259-sci-fi-drone--58689.png"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-drone--58689.html' class='link product-page-link'>sci-fi drone</a></div>
+			<span class='search-result__format'>.3ds .obj .c4d .3dm</span>
+			<div class='search-result__footer'>	
+			<span data-price='0' class='search-result__price free  product-page-link'>FREE </span>
+			<span class='search-result__stats'><span class="stat-item downloads">4,427</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href='/3d-model/sci-fi-drone--58689.html' class='product-tools product-page-link'><span class='product-tool product-tool__zoom'></span></a>
+			</div>
+			
+		</div><div class='search-result  premium' data-seo_url='sci-fi-turret-3733'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-turret-3733.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://preview.free3d.com/img-dev/2016/05/1720460643754051345/uabmtakm-180.jpg' alt='Sci-fi turret 3d model' title='Sci-fi turret 3d model' rel='{"pret":"&#36;9","type":".unknown .ma .obj .fbx","standard":null,"imgd":"https:\/\/preview.free3d.com\/img-dev\/2016\/05\/1720460643754051345\/uabmtakm-900.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-turret-3733.html' class='link product-page-link'>Sci-fi turret</a></div>
+			<span class='search-result__format'>.unknown .ma .obj .fbx</span>
+			<div class='search-result__footer'>	
+			<span data-price='9' class='search-result__price  product-page-link'><span class="dollar">&#36;</span>9 </span>
+			<span class='search-result__stats'><span class="stat-item views">1,530</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href="/3d-model/sci-fi-turret-3733.html" class="product-tools product-tools__premium product-page-link"><span class="product-tool product-tool__zoom"></span><!--span class="product-tool product-tool__add-to-cart" data-seo_url="sci-fi-turret-3733"></span--></a>
+			</div>
+			
+		</div><div class='search-result  ' data-seo_url='sci-fi-downtown-city-53758'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-downtown-city-53758.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://free3d.com/imgd/s45194-sci-fi-downtown-city-53758.jpg' alt='Sci-Fi Downtown City 3d model' title='Sci-Fi Downtown City 3d model' rel='{"pret":"&#36;0","type":".obj","standard":null,"imgd":"https:\/\/free3d.com\/imgd\/l45194-sci-fi-downtown-city-53758.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-downtown-city-53758.html' class='link product-page-link'>Sci-Fi Downtown City</a></div>
+			<span class='search-result__format'>.obj</span>
+			<div class='search-result__footer'>	
+			<span data-price='0' class='search-result__price free  product-page-link'>FREE </span>
+			<span class='search-result__stats'><span class="stat-item downloads">65,005</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href='/3d-model/sci-fi-downtown-city-53758.html' class='product-tools product-page-link'><span class='product-tool product-tool__zoom'></span></a>
+			</div>
+			
+		</div><div class='search-result  premium' data-seo_url='sci-fi-spaceship-7142'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-spaceship-7142.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://preview.free3d.com/img/2012/04/1688652359942538377/igpztdrz-180.jpg' alt='Sci-Fi Spaceship 3d model' title='Sci-Fi Spaceship 3d model' rel='{"pret":"&#36;25","type":".max","standard":null,"imgd":"https:\/\/preview.free3d.com\/img\/2012\/04\/1688652359942538377\/igpztdrz-900.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-spaceship-7142.html' class='link product-page-link'>Sci-Fi Spaceship</a></div>
+			<span class='search-result__format'>.max</span>
+			<div class='search-result__footer'>	
+			<span data-price='25' class='search-result__price  product-page-link'><span class="dollar">&#36;</span>25 </span>
+			<span class='search-result__stats'><span class="stat-item views">2,058</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href="/3d-model/sci-fi-spaceship-7142.html" class="product-tools product-tools__premium product-page-link"><span class="product-tool product-tool__zoom"></span><!--span class="product-tool product-tool__add-to-cart" data-seo_url="sci-fi-spaceship-7142"></span--></a>
+			</div>
+			
+		</div><div class='search-result  ' data-seo_url='sci-fi-helicopter-224666'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-helicopter-224666.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://free3d.com/imgd/s56/5ae1adea26be8b89308b4567/9842-sci-fi-helicopter.png' alt='Sci Fi Helicopter 3d model' title='Sci Fi Helicopter 3d model' rel='{"pret":"&#36;0","type":".blend .obj","standard":null,"imgd":"https:\/\/free3d.com\/imgd\/l56\/5ae1adea26be8b89308b4567\/9842-sci-fi-helicopter.png"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-helicopter-224666.html' class='link product-page-link'>Sci Fi Helicopter</a></div>
+			<span class='search-result__format'>.blend .obj</span>
+			<div class='search-result__footer'>	
+			<span data-price='0' class='search-result__price free  product-page-link'>FREE </span>
+			<span class='search-result__stats'><span class="stat-item downloads">1,315</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'><div class='sec_entry_icon sei_animated'><span class='ss-hiker'></span></div></div>
+			<a href='/3d-model/sci-fi-helicopter-224666.html' class='product-tools product-page-link'><span class='product-tool product-tool__zoom'></span></a>
+			</div>
+			
+		</div><div class='search-result  premium' data-seo_url='hexagon-shaped-sci-fi-scene-5231'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/hexagon-shaped-sci-fi-scene-5231.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://preview.free3d.com/img-dev/2017/04/1734941927909885436/9qeo1qn7-180.jpg' alt='Hexagon shaped sci fi scene 3d model' title='Hexagon shaped sci fi scene 3d model' rel='{"pret":"&#36;24","type":".max .fbx .blend","standard":null,"imgd":"https:\/\/preview.free3d.com\/img-dev\/2017\/04\/1734941927909885436\/9qeo1qn7-900.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/hexagon-shaped-sci-fi-scene-5231.html' class='link product-page-link'>Hexagon shaped sci fi scene</a></div>
+			<span class='search-result__format'>.max .fbx .blend</span>
+			<div class='search-result__footer'>	
+			<span data-price='24' class='search-result__price  product-page-link'><span class="dollar">&#36;</span>24 </span>
+			<span class='search-result__stats'><span class="stat-item views">1,793</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href="/3d-model/hexagon-shaped-sci-fi-scene-5231.html" class="product-tools product-tools__premium product-page-link"><span class="product-tool product-tool__zoom"></span><!--span class="product-tool product-tool__add-to-cart" data-seo_url="hexagon-shaped-sci-fi-scene-5231"></span--></a>
+			</div>
+			
+		</div><div class='search-result  ' data-seo_url='sci-fi--79771'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi--79771.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://free3d.com/imgd/s54530-sci-fi--79771.jpg' alt='Sci-Fi Door 3d model' title='Sci-Fi Door 3d model' rel='{"pret":"&#36;0","type":".fbx","standard":null,"imgd":"https:\/\/free3d.com\/imgd\/l54530-sci-fi--79771.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi--79771.html' class='link product-page-link'>Sci-Fi Door</a></div>
+			<span class='search-result__format'>.fbx</span>
+			<div class='search-result__footer'>	
+			<span data-price='0' class='search-result__price free  product-page-link'>FREE </span>
+			<span class='search-result__stats'><span class="stat-item downloads">940</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href='/3d-model/sci-fi--79771.html' class='product-tools product-page-link'><span class='product-tool product-tool__zoom'></span></a>
+			</div>
+			
+		</div><div class='search-result  premium' data-seo_url='sci-fi-vehicle-5100'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-vehicle-5100.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://preview.free3d.com/img-dev/2015/03/1764005322600482239/jd3uvbvu-180.jpg' alt='Sci-fi Vehicle 3d model' title='Sci-fi Vehicle 3d model' rel='{"pret":"&#36;3","type":".unknown .max .obj .fbx .blend","standard":null,"imgd":"https:\/\/preview.free3d.com\/img-dev\/2015\/03\/1764005322600482239\/jd3uvbvu-900.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-vehicle-5100.html' class='link product-page-link'>Sci-fi Vehicle</a></div>
+			<span class='search-result__format'>.unknown .max .obj .fbx .blend</span>
+			<div class='search-result__footer'>	
+			<span data-price='3' class='search-result__price  product-page-link'><span class="dollar">&#36;</span>3 </span>
+			<span class='search-result__stats'><span class="stat-item views">1,397</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href="/3d-model/sci-fi-vehicle-5100.html" class="product-tools product-tools__premium product-page-link"><span class="product-tool product-tool__zoom"></span><!--span class="product-tool product-tool__add-to-cart" data-seo_url="sci-fi-vehicle-5100"></span--></a>
+			</div>
+			
+		</div><div class='search-result  ' data-seo_url='sci-fi-tropical-city-25746'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-tropical-city-25746.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://free3d.com/imgd/s77681-sci-fi-tropical-city-25746.jpg' alt='Sci-fi Tropical City 3d model' title='Sci-fi Tropical City 3d model' rel='{"pret":"&#36;0","type":".obj","standard":null,"imgd":"https:\/\/free3d.com\/imgd\/l77681-sci-fi-tropical-city-25746.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-tropical-city-25746.html' class='link product-page-link'>Sci-fi Tropical City</a></div>
+			<span class='search-result__format'>.obj</span>
+			<div class='search-result__footer'>	
+			<span data-price='0' class='search-result__price free  product-page-link'>FREE </span>
+			<span class='search-result__stats'><span class="stat-item downloads">33,808</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href='/3d-model/sci-fi-tropical-city-25746.html' class='product-tools product-page-link'><span class='product-tool product-tool__zoom'></span></a>
+			</div>
+			
+		</div><div class='search-result  premium' data-seo_url='sci-fi-wires-2112'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-wires-2112.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://preview.free3d.com/img-dev/2015/08/1743616934001247881/e0ci2g0c-180.jpg' alt='Sci-Fi Wires 3d model' title='Sci-Fi Wires 3d model' rel='{"pret":"&#36;5","type":".max .3ds .obj .ma .fbx","standard":null,"imgd":"https:\/\/preview.free3d.com\/img-dev\/2015\/08\/1743616934001247881\/e0ci2g0c-900.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-wires-2112.html' class='link product-page-link'>Sci-Fi Wires</a></div>
+			<span class='search-result__format'>.max .3ds .obj .ma .fbx</span>
+			<div class='search-result__footer'>	
+			<span data-price='5' class='search-result__price  product-page-link'><span class="dollar">&#36;</span>5 </span>
+			<span class='search-result__stats'><span class="stat-item views">971</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href="/3d-model/sci-fi-wires-2112.html" class="product-tools product-tools__premium product-page-link"><span class="product-tool product-tool__zoom"></span><!--span class="product-tool product-tool__add-to-cart" data-seo_url="sci-fi-wires-2112"></span--></a>
+			</div>
+			
+		</div><div class='search-result  ' data-seo_url='sci-fi-robot-16713'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-robot-16713.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://free3d.com/imgd/s87290-sci-fi-robot-16713.jpg' alt='Sci-Fi Robot 3d model' title='Sci-Fi Robot 3d model' rel='{"pret":"&#36;0","type":".ma","standard":null,"imgd":"https:\/\/free3d.com\/imgd\/l87290-sci-fi-robot-16713.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-robot-16713.html' class='link product-page-link'>Sci-Fi Robot</a></div>
+			<span class='search-result__format'>.ma</span>
+			<div class='search-result__footer'>	
+			<span data-price='0' class='search-result__price free  product-page-link'>FREE </span>
+			<span class='search-result__stats'><span class="stat-item downloads">930</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href='/3d-model/sci-fi-robot-16713.html' class='product-tools product-page-link'><span class='product-tool product-tool__zoom'></span></a>
+			</div>
+			
+		</div><div class='search-result  premium' data-seo_url='battleship-sci-fi-4966'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/battleship-sci-fi-4966.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://preview.free3d.com/img/2014/12/1764663937539769958/e2qtyaa5-180.jpg' alt='Battleship Sci-fi 3d model' title='Battleship Sci-fi 3d model' rel='{"pret":"&#36;20","type":".max .3ds","standard":null,"imgd":"https:\/\/preview.free3d.com\/img\/2014\/12\/1764663937539769958\/e2qtyaa5-900.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/battleship-sci-fi-4966.html' class='link product-page-link'>Battleship Sci-fi</a></div>
+			<span class='search-result__format'>.max .3ds</span>
+			<div class='search-result__footer'>	
+			<span data-price='20' class='search-result__price  product-page-link'><span class="dollar">&#36;</span>20 </span>
+			<span class='search-result__stats'><span class="stat-item views">1,284</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href="/3d-model/battleship-sci-fi-4966.html" class="product-tools product-tools__premium product-page-link"><span class="product-tool product-tool__zoom"></span><!--span class="product-tool product-tool__add-to-cart" data-seo_url="battleship-sci-fi-4966"></span--></a>
+			</div>
+			
+		</div><div class='search-result  ' data-seo_url='earth-506038'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/earth-506038.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://free3d.com/imgd/s18/5ba7928726be8bae2b8b4567/6141-earth.png' alt='Earth 3d model' title='Earth 3d model' rel='{"pret":"&#36;0","type":".blend","standard":null,"imgd":"https:\/\/free3d.com\/imgd\/l18\/5ba7928726be8bae2b8b4567\/6141-earth.png"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/earth-506038.html' class='link product-page-link'>Earth</a></div>
+			<span class='search-result__format'>.blend</span>
+			<div class='search-result__footer'>	
+			<span data-price='0' class='search-result__price free  product-page-link'>FREE </span>
+			<span class='search-result__stats'><span class="stat-item downloads">1,101</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href='/3d-model/earth-506038.html' class='product-tools product-page-link'><span class='product-tool product-tool__zoom'></span></a>
+			</div>
+			
+		</div></div>
+                    <script>
+                        console.log('Related load time: ' + 0.12105011940002);
+                    </script>
+                </div><div class='product-page-content-wrapper'><div class='product-page-header has-clearfix'>
+                        <div class='page-breadcrumb'>
+                            <a href='/3d-models/' class='home-link'>3D Models</a>
+                                <span class='current-page-title'><a href='/3d-models/accessories'>accessories</a></span><span class='current-page-title'><a href='/3d-models/'></a></span>
+                                <span class='current-page-title'>Ultra realistic sci-fi earth
+                                </span>
+                        </div>
+                        <div class='right '></div>
+                        <h1 class='product-page-header__title'>
+                            <span class='title_text'>Ultra realistic sci-fi earth</span>
+                            <span class=title_extra_info>3D Model</span>
+                        </h1>
+                
+                        <!-- Bookmark product -->
+                        <div class='btn-action btn-bookmark-product '
+                            title='Bookmark'>
+                            <span class='count'>3</span>
+                        </div>
+                        
+                        <div class='product-badges has-clearfix'>
+                            
+                        </div>
+                    </div><div class='product-main-info has-clearfix'>
+                        <!-- Product images slides --> 
+                        <div class='product-slider-container'>
+                            <div class='large-image-slider main-product-slider' id='main-product-slider'><div class='slide'><img alt='Ultra realistic sci-fi earth royalty-free 3d model - Preview no. 1' width='920' src='https://free3d.com/imgd/l95/5c6c0d3a26be8bca268b4567/3498-ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures.png' data-slide_tmb='https://free3d.com/imgd/s95/5c6c0d3a26be8bca268b4567/3498-ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures.png' data-slide_bigimg='https://free3d.com/imgd/raw95/5c6c0d3a26be8bca268b4567/3498-ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures.png' class='large-image'></div><div class='slide'><img alt='Ultra realistic sci-fi earth royalty-free 3d model - Preview no. 2' width='920' src='https://free3d.com/imgd/l43/5c6c0d3a26be8bca268b4567/6347-ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures.png' data-slide_tmb='https://free3d.com/imgd/s43/5c6c0d3a26be8bca268b4567/6347-ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures.png' data-slide_bigimg='https://free3d.com/imgd/raw43/5c6c0d3a26be8bca268b4567/6347-ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures.png' class='large-image'></div><div class='slide'><img alt='Ultra realistic sci-fi earth royalty-free 3d model - Preview no. 3' width='920' src='https://free3d.com/imgd/l71/5c6c0d3a26be8bca268b4567/9914-ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures.png' data-slide_tmb='https://free3d.com/imgd/s71/5c6c0d3a26be8bca268b4567/9914-ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures.png' data-slide_bigimg='https://free3d.com/imgd/raw71/5c6c0d3a26be8bca268b4567/9914-ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures.png' class='large-image'></div><div class='slide'><img alt='Ultra realistic sci-fi earth royalty-free 3d model - Preview no. 4' width='920' src='https://free3d.com/imgd/l2/5c6c0d3a26be8bca268b4567/5477-ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures.png' data-slide_tmb='https://free3d.com/imgd/s2/5c6c0d3a26be8bca268b4567/5477-ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures.png' data-slide_bigimg='https://free3d.com/imgd/raw2/5c6c0d3a26be8bca268b4567/5477-ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures.png' class='large-image'></div><div class='slide'><img alt='Ultra realistic sci-fi earth royalty-free 3d model - Preview no. 5' width='920' src='https://free3d.com/imgd/l58/5c6c0d3a26be8bca268b4567/5840-ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures.png' data-slide_tmb='https://free3d.com/imgd/s58/5c6c0d3a26be8bca268b4567/5840-ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures.png' data-slide_bigimg='https://free3d.com/imgd/raw58/5c6c0d3a26be8bca268b4567/5840-ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures.png' class='large-image'></div><div class='slide'><img alt='Ultra realistic sci-fi earth royalty-free 3d model - Preview no. 6' width='920' src='https://free3d.com/imgd/l24/5c6c0d3a26be8bca268b4567/7241-ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures.png' data-slide_tmb='https://free3d.com/imgd/s24/5c6c0d3a26be8bca268b4567/7241-ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures.png' data-slide_bigimg='https://free3d.com/imgd/raw24/5c6c0d3a26be8bca268b4567/7241-ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures.png' class='large-image'></div></div><div class='thumbs-image-slider main-product-slider-nav' id='main-product-slider-nav'><div class='slide'><img alt='Ultra realistic sci-fi earth royalty-free 3d model - Preview no. 1' width='920' src='https://free3d.com/imgd/l95/5c6c0d3a26be8bca268b4567/3498-ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures.png'></div><div class='slide'><img alt='Ultra realistic sci-fi earth royalty-free 3d model - Preview no. 2' width='920' src='https://free3d.com/imgd/l43/5c6c0d3a26be8bca268b4567/6347-ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures.png'></div><div class='slide'><img alt='Ultra realistic sci-fi earth royalty-free 3d model - Preview no. 3' width='920' src='https://free3d.com/imgd/l71/5c6c0d3a26be8bca268b4567/9914-ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures.png'></div><div class='slide'><img alt='Ultra realistic sci-fi earth royalty-free 3d model - Preview no. 4' width='920' src='https://free3d.com/imgd/l2/5c6c0d3a26be8bca268b4567/5477-ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures.png'></div><div class='slide'><img alt='Ultra realistic sci-fi earth royalty-free 3d model - Preview no. 5' width='920' src='https://free3d.com/imgd/l58/5c6c0d3a26be8bca268b4567/5840-ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures.png'></div><div class='slide'><img alt='Ultra realistic sci-fi earth royalty-free 3d model - Preview no. 6' width='920' src='https://free3d.com/imgd/l24/5c6c0d3a26be8bca268b4567/7241-ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures.png'></div></div>
+                            <span class='toggle-fullscreen-gallery'></span>
+                        </div>
+                        <div class='product-main-details'>
+                            <div class='product-main-details__action-container'>
+                                <div class=' product-action-bar product-main-details__action-bar'>
+                                    <div class='single-product-price-container'>
+                                        <div class='single-product-price-container__digits'>0</div>
+                                        <div class='single-product-price-container__decimals'>00</div>
+                                    </div>
+                                    <div class='action-buttons-container'>
+                                        <!----- Add to Basket ------>
+                                        <a rel="nofollow" id="download-prod" href="#" class="btn-action btn-download">Download</a>
+                                    </div>
+                                </div>
+                                
+                    
+                                <div class='product-license-container product-main-details__license-container '>
+                                    <div class='product-main-details__product-license'>
+                                        <div class='product-license__content'><span class='license-text'>Personal Use License</span></div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class='product-main-details__meta-container product-meta-container'>
+                                
+                                <div class='product-meta-public'>
+                                    <!--- Stats -->
+                                    <div class='product-stats-container'>
+                                        
+                                        <div class='product-stats__block product-stats__public product-counters'>
+                                            <div class='product-stat-item stats-item stats-view left'>
+                                                <span class='product-stat-item__content stat_content'>
+                                                    <span class='product-stat-item__value stat_value'>1,521</span>
+                                                    <span class='product-stat-item__label stat_label'>visits</span>
+                                                </span>
+                                            </div>
+                                            <div class='product-stat-item stats-item stats-analytics right'>
+                <span class='product-stat-item__content stat_content'>
+                    <span class='product-stat-item__value stat_value'>795</span>
+                    <span class='product-stat-item__label stat_label'>downloads</span>
+                </span>
+            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Author -->
+                                    <div class='author-container'>
+                                        <a class='avatar' href='/user/blenderist'>
+                                        <img src='https://free3d.com/imgd/avatar/m-69017-blenderist.jpg'>
+                                    </a>
+                                        <div class='username-container'>
+                                            <span class='submitted-by'>Submitted by</span>
+                                            <a rel='nofollow' href='/user/blenderist' class='username'>blenderist</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><div class='product-additional-details'><div class='product-page-box product-specifications'>
+                <!-- Product Specifications -->
+                <h3 class='product-page-box-title product-page-box-title__specifications'>Specifications</h3><ul class="product-specs-list"><li class='product-spec odd'><span class='spec-label'>Geometry</span><span class='spec-value '>Polygon mesh</span></li><li class='product-spec even'><span class='spec-label'>Polygons</span><span class='spec-value '>11,904</span></li><li class='product-spec odd'><span class='spec-label'>Vertices</span><span class='spec-value '>5,958</span></li><li class='product-spec even'><span class='spec-label'>Textures</span><span class='spec-value yes'>Yes</span></li><li class='product-spec odd'><span class='spec-label'>Materials</span><span class='spec-value yes'>Yes</span></li><li class='product-spec even'><span class='spec-label'>Rigged</span><span class='spec-value no'>No</span></li><li class='product-spec odd'><span class='spec-label'>Animated</span><span class='spec-value no'>No</span></li><li class='product-spec even'><span class='spec-label'>3D Printable Ready</span><span class='spec-value no'>No</span></li><li class='product-spec odd'><span class='spec-label'>Game Ready (low poly)</span><span class='spec-value no'>No</span></li><li class='product-spec even'><span class='spec-label'>UV Mapped</span><span class='spec-value yes'>Yes</span></li></ul></div><div class='product-files-tags'>
+                <!--- Files available -->
+                <div class='product-page-box product-files-container'>
+                    <h3 class='product-page-box-title product-page-box-title__formats'>Formats & Files</h3>
+                    <div class='product-file-info'>
+                        <div class='file-header'>   
+                            <div class='file-formats-expanded'>3DS, , Blender, Collada, FBX, OBJ, STL, </div>
+                            <div class="file-formats"> (.3ds, .abc, .blend, .dae, .fbx, .obj, .stl, .x3d)</div>
+                            <span class="file-size">89.48 MB</span>
+                        </div><br>
+                        <div class='file-software'></div>
+                        <span class='file-renderer'>Other 2.79b</span>
+                        <div class='file-name'>1earth-made-by-elite3d.zip</div>
+                    </div>
+                </div>
+                <!--- Tags -->
+            <div class='product-page-box product-tags-container'>
+                <h3 class='product-page-box-title product-page-box-title__tags'>Tags</h3>
+                <div class='tags-wrapper'>
+                    <a class='indiv-tag' href='/3d-models/ultra'>ultra</a><a class='indiv-tag' href='/3d-models/realistic'>realistic</a><a class='indiv-tag' href='/3d-models/sci-fi'>sci-fi</a><a class='indiv-tag' href='/3d-models/earth'>earth</a><a class='indiv-tag' href='/3d-models/scene'>scene</a><a class='indiv-tag' href='/3d-models/accessories'>accessories</a>
+                </div>
+                
+            </div>
+            </div><div class='product-description'>
+                <!-- Product Description -->
+                <div class='description-container'>
+                    <h3 class='product-page-box-title product-page-box-title__description'>Description</h3>
+                    <div class='product-description__text desc_english'>
+                        <div><span>Ultra realistic sci-fi earth high res textures + low end textures</span></div><div><span>Made with BLENDER 2.79b</span></div><div><span></span></div><br>Hey friends this is my new 3d file and this time it is a really realistic and good earth model with low res and high res textures..<br>
+                    </div>
+                    
+                </div>
+                <div class='product-stats__public product-stats__block product-dates'>          
+                    <div class='product-stat-item stats-item stats-calendar right'>
+                        <span class='product-stat-item__content'>
+                            <span class='product-stat-item__value stat_value'>Feb 19, 2019</span>
+                            <span class='product-stat-item__label stat_label'>date added</span>
+                        </span>
+                    </div>
+                    <div class='product-stat-item stats-item stats-last-update right'>
+                    <span class='product-stat-item__content'>
+                        <span class='product-stat-item__value stat_value'>Jun 14, 2019</span>
+                        <span class='product-stat-item__label stat_label'>last update</span>
+                    </span>
+                </div>
+                </div>
+            </div></div><!-- REVIEWS / Comments -->
+                
+            <div class='product-page-section product-page-section--comments'>
+                <!-- start comment -->
+                <h2 class='product-page-section__title'>Comments</h2>
+                <div class='product-comments__container'>
+                    <!-- Verific daca este autentificat -->
+                    <div class='alert'>To post your comment you'll have to <span class='comments-login-button btn-stock'>Login</span></div>
+                    <div class='product-comment__section product-comment__comments-list'><div class='product-comment__item  5cb0841026be8bc37d8b4567' data-parent_id='5cb0841026be8bc37d8b4567'>
+					<div >
+						<a class='product-comment__avatar' href='/user/beebeau' title='beebeau'>
+							<img class='product-comment__avatar-thumb' src='/imgd/avatar/m-no-avatar.jpg' />
+						</a>
+					</div>
+					<div class='product-comment--body'>
+						<div class='product-comment__content-container'>
+							<div class='product-comment__content'>
+								I&#39;m new to blender are there any tutorials you can link that I can use to apply the textures to your model? Thank you.
+							</div>
+							<div class='product-comment__meta'>
+								<a href='/user/beebeau'>beebeau</a>
+								<span class='product-comment__creation-data'>2 months ago</span> 
+								<span class='product-comment__add-reply' title='beebeau' data-reply_id='5cb0841026be8bc37d8b4567'>Reply2</span>
+								
+							</div>
+						</div>
+					</div>
+				</div><div class='product-comment__item reply 5cb0841026be8bc37d8b4567' data-parent_id='5cb0841026be8bc37d8b4567'>
+					<div >
+						<a class='product-comment__avatar' href='/user/blenderist' title='blenderist'>
+							<img class='product-comment__avatar-thumb' src='/imgd/avatar/m-69017-blenderist.jpg' />
+						</a>
+					</div>
+					<div class='product-comment--body'>
+						<div class='product-comment__content-container'>
+							<div class='product-comment__content'>
+								I cant find any tutorial exact but I have a tutorial link from which i learnt that how to make this earth
+
+https://www.youtube.com/watch?v=9Q8PwcDzb8Y&t=2154s
+
+It is very long but you can just seek it a bit till the the right time and there it is
+
+							</div>
+							<div class='product-comment__meta'>
+								<a href='/user/blenderist'>blenderist</a>
+								<span class='product-comment__creation-data'>2 months ago</span> 
+								<span class='product-comment__add-reply' title='blenderist' data-reply_id='5cb0841026be8bc37d8b4567'>Reply2</span>
+								
+							</div>
+						</div>
+					</div>
+				</div></div>
+                </div>
+                <!-- end comment-->
+            </div><!-- The Vault -->
+							<div class="dim vault-overlay">
+							    <div class="vault-cont">
+							    	<div class="ss-delete close-dim"></div>
+							        <div class="title">Available Files</div>
+							        <div class="files">
+							            <a href="/dl-files.php?p=5c6c0d3a26be8bca268b4567&f=0" class="file" target="_blank" rel="nofollow">
+									<span class="icon ss-downloadbox"></span>
+									<strong>11-1earth-made-by-elite3d.zip</strong> (89.48MB)
+									<span class="formats">.3ds .abc .blend .dae .fbx .obj .stl .x3d</span>
+								</a>							            
+							        </div>
+							    </div>
+							</div></div></div><div class='similar-products-container  has-clearfix'>
+                    <!--<h2 class='section-title similar-products-title'>You might also like</h2>-->
+                    <div id="product-similar-products" class="product-similar-products recommended-products"><div class='search-result  premium' data-seo_url='sci-fi-part-accessories-pack-10-35'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-part-accessories-pack-10-35.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://preview.free3d.com/img-dev/2017/06/1725697993673279337/le3xdmkf-180.jpg' alt='Sci Fi part accessories pack(10) 3d model' title='Sci Fi part accessories pack(10) 3d model' rel='{"pret":"&#36;6","type":".unknown .blend","standard":null,"imgd":"https:\/\/preview.free3d.com\/img-dev\/2017\/06\/1725697993673279337\/le3xdmkf-900.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-part-accessories-pack-10-35.html' class='link product-page-link'>Sci Fi part accessories pack(10)</a></div>
+			<span class='search-result__format'>.unknown .blend</span>
+			<div class='search-result__footer'>	
+			<span data-price='6' class='search-result__price  product-page-link'><span class="dollar">&#36;</span>6 </span>
+			<span class='search-result__stats'><span class="stat-item views">767</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href="/3d-model/sci-fi-part-accessories-pack-10-35.html" class="product-tools product-tools__premium product-page-link"><span class="product-tool product-tool__zoom"></span><!--span class="product-tool product-tool__add-to-cart" data-seo_url="sci-fi-part-accessories-pack-10-35"></span--></a>
+			</div>
+			
+		</div><div class='search-result  premium' data-seo_url='sci-fi-cube-5909'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-cube-5909.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://preview.free3d.com/img-dev/2015/05/1733489045809399578/vzia448p-180.jpg' alt='Sci-fi cube 3d model' title='Sci-fi cube 3d model' rel='{"pret":"&#36;5","type":".max","standard":null,"imgd":"https:\/\/preview.free3d.com\/img-dev\/2015\/05\/1733489045809399578\/vzia448p-900.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-cube-5909.html' class='link product-page-link'>Sci-fi cube</a></div>
+			<span class='search-result__format'>.max</span>
+			<div class='search-result__footer'>	
+			<span data-price='5' class='search-result__price  product-page-link'><span class="dollar">&#36;</span>5 </span>
+			<span class='search-result__stats'><span class="stat-item views">1,789</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href="/3d-model/sci-fi-cube-5909.html" class="product-tools product-tools__premium product-page-link"><span class="product-tool product-tool__zoom"></span><!--span class="product-tool product-tool__add-to-cart" data-seo_url="sci-fi-cube-5909"></span--></a>
+			</div>
+			
+		</div><div class='search-result  ' data-seo_url='planet-earth-99065'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/planet-earth-99065.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://free3d.com/imgd/s93034-planet-earth-99065.jpg' alt='Realistic Planet Earth 3d model' title='Realistic Planet Earth 3d model' rel='{"pret":"&#36;0","type":".3ds .obj .max","standard":null,"imgd":"https:\/\/free3d.com\/imgd\/l93034-planet-earth-99065.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/planet-earth-99065.html' class='link product-page-link'>Realistic Planet Earth</a></div>
+			<span class='search-result__format'>.3ds .obj .max</span>
+			<div class='search-result__footer'>	
+			<span data-price='0' class='search-result__price free  product-page-link'>FREE </span>
+			<span class='search-result__stats'><span class="stat-item downloads">94,791</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href='/3d-model/planet-earth-99065.html' class='product-tools product-page-link'><span class='product-tool product-tool__zoom'></span></a>
+			</div>
+			
+		</div><div class='search-result  premium' data-seo_url='sci-fi-cables-5947'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-cables-5947.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://preview.free3d.com/img-dev/2015/08/1724839597340362176/594s5210-180.jpg' alt='Sci-Fi Cables 3d model' title='Sci-Fi Cables 3d model' rel='{"pret":"&#36;5","type":".max .3ds .obj .ma .fbx","standard":null,"imgd":"https:\/\/preview.free3d.com\/img-dev\/2015\/08\/1724839597340362176\/594s5210-900.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-cables-5947.html' class='link product-page-link'>Sci-Fi Cables</a></div>
+			<span class='search-result__format'>.max .3ds .obj .ma .fbx</span>
+			<div class='search-result__footer'>	
+			<span data-price='5' class='search-result__price  product-page-link'><span class="dollar">&#36;</span>5 </span>
+			<span class='search-result__stats'><span class="stat-item views">1,565</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href="/3d-model/sci-fi-cables-5947.html" class="product-tools product-tools__premium product-page-link"><span class="product-tool product-tool__zoom"></span><!--span class="product-tool product-tool__add-to-cart" data-seo_url="sci-fi-cables-5947"></span--></a>
+			</div>
+			
+		</div><div class='search-result  ' data-seo_url='realistic-earth-93942'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/realistic-earth-93942.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://free3d.com/imgd/s14705-realistic-earth-93942.png' alt='Earth 3d model' title='Earth 3d model' rel='{"pret":"&#36;0","type":".3ds .obj .dae .blend .fbx .mtl .stl","standard":null,"imgd":"https:\/\/free3d.com\/imgd\/l14705-realistic-earth-93942.png"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/realistic-earth-93942.html' class='link product-page-link'>Earth</a></div>
+			<span class='search-result__format'>.3ds .obj .dae .blend .fbx .mtl .stl</span>
+			<div class='search-result__footer'>	
+			<span data-price='0' class='search-result__price free  product-page-link'>FREE </span>
+			<span class='search-result__stats'><span class="stat-item downloads">31,143</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href='/3d-model/realistic-earth-93942.html' class='product-tools product-page-link'><span class='product-tool product-tool__zoom'></span></a>
+			</div>
+			
+		</div><div class='search-result  premium' data-seo_url='sci-fi-ship-5356'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-ship-5356.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://preview.free3d.com/img-dev/2017/02/1721282491567834251/re1ait67-180.jpg' alt='Sci-Fi Ship 3d model' title='Sci-Fi Ship 3d model' rel='{"pret":"&#36;3","type":".ma .obj .fbx","standard":null,"imgd":"https:\/\/preview.free3d.com\/img-dev\/2017\/02\/1721282491567834251\/re1ait67-900.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-ship-5356.html' class='link product-page-link'>Sci-Fi Ship</a></div>
+			<span class='search-result__format'>.ma .obj .fbx</span>
+			<div class='search-result__footer'>	
+			<span data-price='3' class='search-result__price  product-page-link'><span class="dollar">&#36;</span>3 </span>
+			<span class='search-result__stats'><span class="stat-item views">1,119</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href="/3d-model/sci-fi-ship-5356.html" class="product-tools product-tools__premium product-page-link"><span class="product-tool product-tool__zoom"></span><!--span class="product-tool product-tool__add-to-cart" data-seo_url="sci-fi-ship-5356"></span--></a>
+			</div>
+			
+		</div><div class='search-result  ' data-seo_url='realistic-tree-pack-3-trees-95419'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/realistic-tree-pack-3-trees-95419.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://free3d.com/imgd/s88771-realistic-tree-pack-3-trees-95419.png' alt='Realistic Trees Scene 3d model' title='Realistic Trees Scene 3d model' rel='{"pret":"&#36;0","type":".3ds .obj .blend","standard":null,"imgd":"https:\/\/free3d.com\/imgd\/l88771-realistic-tree-pack-3-trees-95419.png"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/realistic-tree-pack-3-trees-95419.html' class='link product-page-link'>Realistic Trees Scene</a></div>
+			<span class='search-result__format'>.3ds .obj .blend</span>
+			<div class='search-result__footer'>	
+			<span data-price='0' class='search-result__price free  product-page-link'>FREE </span>
+			<span class='search-result__stats'><span class="stat-item downloads">167,031</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href='/3d-model/realistic-tree-pack-3-trees-95419.html' class='product-tools product-page-link'><span class='product-tool product-tool__zoom'></span></a>
+			</div>
+			
+		</div><div class='search-result  premium' data-seo_url='sci-fi-spaceship-7142'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-spaceship-7142.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://preview.free3d.com/img/2012/04/1688652359942538377/igpztdrz-180.jpg' alt='Sci-Fi Spaceship 3d model' title='Sci-Fi Spaceship 3d model' rel='{"pret":"&#36;25","type":".max","standard":null,"imgd":"https:\/\/preview.free3d.com\/img\/2012\/04\/1688652359942538377\/igpztdrz-900.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-spaceship-7142.html' class='link product-page-link'>Sci-Fi Spaceship</a></div>
+			<span class='search-result__format'>.max</span>
+			<div class='search-result__footer'>	
+			<span data-price='25' class='search-result__price  product-page-link'><span class="dollar">&#36;</span>25 </span>
+			<span class='search-result__stats'><span class="stat-item views">2,058</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href="/3d-model/sci-fi-spaceship-7142.html" class="product-tools product-tools__premium product-page-link"><span class="product-tool product-tool__zoom"></span><!--span class="product-tool product-tool__add-to-cart" data-seo_url="sci-fi-spaceship-7142"></span--></a>
+			</div>
+			
+		</div><div class='search-result  ' data-seo_url='si-fi-freighter-13915'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/si-fi-freighter-13915.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://free3d.com/imgd/s30369-si-fi-freighter-13915.png' alt='Sci-Fi Freighter 3d model' title='Sci-Fi Freighter 3d model' rel='{"pret":"&#36;0","type":".3ds .obj .dae .blend .fbx .dxf .stl","standard":null,"imgd":"https:\/\/free3d.com\/imgd\/l30369-si-fi-freighter-13915.png"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/si-fi-freighter-13915.html' class='link product-page-link'>Sci-Fi Freighter</a></div>
+			<span class='search-result__format'>.3ds .obj .dae .blend .fbx .dxf .stl</span>
+			<div class='search-result__footer'>	
+			<span data-price='0' class='search-result__price free  product-page-link'>FREE </span>
+			<span class='search-result__stats'><span class="stat-item downloads">4,451</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'><div class='sec_entry_icon sei_game'><span class='ss-fivedie'></span></div><div class='sec_entry_icon sei_rigged'><span class='ss-yoga'></span></div><div class='sec_entry_icon sei_animated'><span class='ss-hiker'></span></div></div>
+			<a href='/3d-model/si-fi-freighter-13915.html' class='product-tools product-page-link'><span class='product-tool product-tool__zoom'></span></a>
+			</div>
+			
+		</div><div class='search-result  premium' data-seo_url='sci-fi-hydroponics-8677'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-hydroponics-8677.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://preview.free3d.com/img-dev/2016/12/1721279786501801411/sj4gf3b0-180.jpg' alt='Sci-fi Hydroponics 3d model' title='Sci-fi Hydroponics 3d model' rel='{"pret":"&#36;12","type":".obj .fbx .dae .blend .3ds","standard":null,"imgd":"https:\/\/preview.free3d.com\/img-dev\/2016\/12\/1721279786501801411\/sj4gf3b0-900.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-hydroponics-8677.html' class='link product-page-link'>Sci-fi Hydroponics</a></div>
+			<span class='search-result__format'>.obj .fbx .dae .blend .3ds</span>
+			<div class='search-result__footer'>	
+			<span data-price='12' class='search-result__price  product-page-link'><span class="dollar">&#36;</span>12 </span>
+			<span class='search-result__stats'><span class="stat-item views">1,081</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href="/3d-model/sci-fi-hydroponics-8677.html" class="product-tools product-tools__premium product-page-link"><span class="product-tool product-tool__zoom"></span><!--span class="product-tool product-tool__add-to-cart" data-seo_url="sci-fi-hydroponics-8677"></span--></a>
+			</div>
+			
+		</div><div class='search-result  ' data-seo_url='sci-fi-drone--58689'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-drone--58689.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://free3d.com/imgd/s13259-sci-fi-drone--58689.png' alt='sci-fi drone 3d model' title='sci-fi drone 3d model' rel='{"pret":"&#36;0","type":".3ds .obj .c4d .3dm","standard":null,"imgd":"https:\/\/free3d.com\/imgd\/l13259-sci-fi-drone--58689.png"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-drone--58689.html' class='link product-page-link'>sci-fi drone</a></div>
+			<span class='search-result__format'>.3ds .obj .c4d .3dm</span>
+			<div class='search-result__footer'>	
+			<span data-price='0' class='search-result__price free  product-page-link'>FREE </span>
+			<span class='search-result__stats'><span class="stat-item downloads">4,427</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href='/3d-model/sci-fi-drone--58689.html' class='product-tools product-page-link'><span class='product-tool product-tool__zoom'></span></a>
+			</div>
+			
+		</div><div class='search-result  premium' data-seo_url='sci-fi-console-1789'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-console-1789.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://preview.free3d.com/img-dev/2017/06/1733505878281160274/w7d6hnqx-180.jpg' alt='Sci Fi console 3d model' title='Sci Fi console 3d model' rel='{"pret":"&#36;1","type":".unknown .obj .fbx .blend .3ds","standard":null,"imgd":"https:\/\/preview.free3d.com\/img-dev\/2017\/06\/1733505878281160274\/w7d6hnqx-900.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-console-1789.html' class='link product-page-link'>Sci Fi console</a></div>
+			<span class='search-result__format'>.unknown .obj .fbx .blend .3ds</span>
+			<div class='search-result__footer'>	
+			<span data-price='1' class='search-result__price  product-page-link'><span class="dollar">&#36;</span>1 </span>
+			<span class='search-result__stats'><span class="stat-item views">756</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href="/3d-model/sci-fi-console-1789.html" class="product-tools product-tools__premium product-page-link"><span class="product-tool product-tool__zoom"></span><!--span class="product-tool product-tool__add-to-cart" data-seo_url="sci-fi-console-1789"></span--></a>
+			</div>
+			
+		</div><div class='search-result  ' data-seo_url='sci-fi-downtown-city-53758'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-downtown-city-53758.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://free3d.com/imgd/s45194-sci-fi-downtown-city-53758.jpg' alt='Sci-Fi Downtown City 3d model' title='Sci-Fi Downtown City 3d model' rel='{"pret":"&#36;0","type":".obj","standard":null,"imgd":"https:\/\/free3d.com\/imgd\/l45194-sci-fi-downtown-city-53758.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-downtown-city-53758.html' class='link product-page-link'>Sci-Fi Downtown City</a></div>
+			<span class='search-result__format'>.obj</span>
+			<div class='search-result__footer'>	
+			<span data-price='0' class='search-result__price free  product-page-link'>FREE </span>
+			<span class='search-result__stats'><span class="stat-item downloads">65,005</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href='/3d-model/sci-fi-downtown-city-53758.html' class='product-tools product-page-link'><span class='product-tool product-tool__zoom'></span></a>
+			</div>
+			
+		</div><div class='search-result  premium' data-seo_url='sci-fi-turret-3733'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-turret-3733.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://preview.free3d.com/img-dev/2016/05/1720460643754051345/uabmtakm-180.jpg' alt='Sci-fi turret 3d model' title='Sci-fi turret 3d model' rel='{"pret":"&#36;9","type":".unknown .ma .obj .fbx","standard":null,"imgd":"https:\/\/preview.free3d.com\/img-dev\/2016\/05\/1720460643754051345\/uabmtakm-900.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-turret-3733.html' class='link product-page-link'>Sci-fi turret</a></div>
+			<span class='search-result__format'>.unknown .ma .obj .fbx</span>
+			<div class='search-result__footer'>	
+			<span data-price='9' class='search-result__price  product-page-link'><span class="dollar">&#36;</span>9 </span>
+			<span class='search-result__stats'><span class="stat-item views">1,530</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href="/3d-model/sci-fi-turret-3733.html" class="product-tools product-tools__premium product-page-link"><span class="product-tool product-tool__zoom"></span><!--span class="product-tool product-tool__add-to-cart" data-seo_url="sci-fi-turret-3733"></span--></a>
+			</div>
+			
+		</div><div class='search-result  ' data-seo_url='earth-506038'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/earth-506038.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://free3d.com/imgd/s18/5ba7928726be8bae2b8b4567/6141-earth.png' alt='Earth 3d model' title='Earth 3d model' rel='{"pret":"&#36;0","type":".blend","standard":null,"imgd":"https:\/\/free3d.com\/imgd\/l18\/5ba7928726be8bae2b8b4567\/6141-earth.png"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/earth-506038.html' class='link product-page-link'>Earth</a></div>
+			<span class='search-result__format'>.blend</span>
+			<div class='search-result__footer'>	
+			<span data-price='0' class='search-result__price free  product-page-link'>FREE </span>
+			<span class='search-result__stats'><span class="stat-item downloads">1,101</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href='/3d-model/earth-506038.html' class='product-tools product-page-link'><span class='product-tool product-tool__zoom'></span></a>
+			</div>
+			
+		</div><div class='search-result  premium' data-seo_url='hexagon-shaped-sci-fi-scene-5231'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/hexagon-shaped-sci-fi-scene-5231.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://preview.free3d.com/img-dev/2017/04/1734941927909885436/9qeo1qn7-180.jpg' alt='Hexagon shaped sci fi scene 3d model' title='Hexagon shaped sci fi scene 3d model' rel='{"pret":"&#36;24","type":".max .fbx .blend","standard":null,"imgd":"https:\/\/preview.free3d.com\/img-dev\/2017\/04\/1734941927909885436\/9qeo1qn7-900.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/hexagon-shaped-sci-fi-scene-5231.html' class='link product-page-link'>Hexagon shaped sci fi scene</a></div>
+			<span class='search-result__format'>.max .fbx .blend</span>
+			<div class='search-result__footer'>	
+			<span data-price='24' class='search-result__price  product-page-link'><span class="dollar">&#36;</span>24 </span>
+			<span class='search-result__stats'><span class="stat-item views">1,793</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href="/3d-model/hexagon-shaped-sci-fi-scene-5231.html" class="product-tools product-tools__premium product-page-link"><span class="product-tool product-tool__zoom"></span><!--span class="product-tool product-tool__add-to-cart" data-seo_url="hexagon-shaped-sci-fi-scene-5231"></span--></a>
+			</div>
+			
+		</div><div class='search-result  ' data-seo_url='sci-fi-helicopter-224666'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-helicopter-224666.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://free3d.com/imgd/s56/5ae1adea26be8b89308b4567/9842-sci-fi-helicopter.png' alt='Sci Fi Helicopter 3d model' title='Sci Fi Helicopter 3d model' rel='{"pret":"&#36;0","type":".blend .obj","standard":null,"imgd":"https:\/\/free3d.com\/imgd\/l56\/5ae1adea26be8b89308b4567\/9842-sci-fi-helicopter.png"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-helicopter-224666.html' class='link product-page-link'>Sci Fi Helicopter</a></div>
+			<span class='search-result__format'>.blend .obj</span>
+			<div class='search-result__footer'>	
+			<span data-price='0' class='search-result__price free  product-page-link'>FREE </span>
+			<span class='search-result__stats'><span class="stat-item downloads">1,315</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'><div class='sec_entry_icon sei_animated'><span class='ss-hiker'></span></div></div>
+			<a href='/3d-model/sci-fi-helicopter-224666.html' class='product-tools product-page-link'><span class='product-tool product-tool__zoom'></span></a>
+			</div>
+			
+		</div><div class='search-result  premium' data-seo_url='sci-fi-vehicle-5100'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-vehicle-5100.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://preview.free3d.com/img-dev/2015/03/1764005322600482239/jd3uvbvu-180.jpg' alt='Sci-fi Vehicle 3d model' title='Sci-fi Vehicle 3d model' rel='{"pret":"&#36;3","type":".unknown .max .obj .fbx .blend","standard":null,"imgd":"https:\/\/preview.free3d.com\/img-dev\/2015\/03\/1764005322600482239\/jd3uvbvu-900.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-vehicle-5100.html' class='link product-page-link'>Sci-fi Vehicle</a></div>
+			<span class='search-result__format'>.unknown .max .obj .fbx .blend</span>
+			<div class='search-result__footer'>	
+			<span data-price='3' class='search-result__price  product-page-link'><span class="dollar">&#36;</span>3 </span>
+			<span class='search-result__stats'><span class="stat-item views">1,397</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href="/3d-model/sci-fi-vehicle-5100.html" class="product-tools product-tools__premium product-page-link"><span class="product-tool product-tool__zoom"></span><!--span class="product-tool product-tool__add-to-cart" data-seo_url="sci-fi-vehicle-5100"></span--></a>
+			</div>
+			
+		</div><div class='search-result  ' data-seo_url='sci-fi-robot-16713'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-robot-16713.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://free3d.com/imgd/s87290-sci-fi-robot-16713.jpg' alt='Sci-Fi Robot 3d model' title='Sci-Fi Robot 3d model' rel='{"pret":"&#36;0","type":".ma","standard":null,"imgd":"https:\/\/free3d.com\/imgd\/l87290-sci-fi-robot-16713.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-robot-16713.html' class='link product-page-link'>Sci-Fi Robot</a></div>
+			<span class='search-result__format'>.ma</span>
+			<div class='search-result__footer'>	
+			<span data-price='0' class='search-result__price free  product-page-link'>FREE </span>
+			<span class='search-result__stats'><span class="stat-item downloads">930</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href='/3d-model/sci-fi-robot-16713.html' class='product-tools product-page-link'><span class='product-tool product-tool__zoom'></span></a>
+			</div>
+			
+		</div><div class='search-result  premium' data-seo_url='sci-fi-wires-2112'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-wires-2112.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://preview.free3d.com/img-dev/2015/08/1743616934001247881/e0ci2g0c-180.jpg' alt='Sci-Fi Wires 3d model' title='Sci-Fi Wires 3d model' rel='{"pret":"&#36;5","type":".max .3ds .obj .ma .fbx","standard":null,"imgd":"https:\/\/preview.free3d.com\/img-dev\/2015\/08\/1743616934001247881\/e0ci2g0c-900.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-wires-2112.html' class='link product-page-link'>Sci-Fi Wires</a></div>
+			<span class='search-result__format'>.max .3ds .obj .ma .fbx</span>
+			<div class='search-result__footer'>	
+			<span data-price='5' class='search-result__price  product-page-link'><span class="dollar">&#36;</span>5 </span>
+			<span class='search-result__stats'><span class="stat-item views">971</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href="/3d-model/sci-fi-wires-2112.html" class="product-tools product-tools__premium product-page-link"><span class="product-tool product-tool__zoom"></span><!--span class="product-tool product-tool__add-to-cart" data-seo_url="sci-fi-wires-2112"></span--></a>
+			</div>
+			
+		</div><div class='search-result  ' data-seo_url='sci-fi--79771'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi--79771.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://free3d.com/imgd/s54530-sci-fi--79771.jpg' alt='Sci-Fi Door 3d model' title='Sci-Fi Door 3d model' rel='{"pret":"&#36;0","type":".fbx","standard":null,"imgd":"https:\/\/free3d.com\/imgd\/l54530-sci-fi--79771.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi--79771.html' class='link product-page-link'>Sci-Fi Door</a></div>
+			<span class='search-result__format'>.fbx</span>
+			<div class='search-result__footer'>	
+			<span data-price='0' class='search-result__price free  product-page-link'>FREE </span>
+			<span class='search-result__stats'><span class="stat-item downloads">940</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href='/3d-model/sci-fi--79771.html' class='product-tools product-page-link'><span class='product-tool product-tool__zoom'></span></a>
+			</div>
+			
+		</div><div class='search-result  premium' data-seo_url='sci-fi-pistol-8765'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/sci-fi-pistol-8765.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://preview.free3d.com/img-dev/2016/03/1723323771361691187/36phzt47-180.jpg' alt='Sci-fi Pistol 3d model' title='Sci-fi Pistol 3d model' rel='{"pret":"&#36;4","type":".obj .fbx .ma","standard":null,"imgd":"https:\/\/preview.free3d.com\/img-dev\/2016\/03\/1723323771361691187\/36phzt47-900.jpg"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/sci-fi-pistol-8765.html' class='link product-page-link'>Sci-fi Pistol</a></div>
+			<span class='search-result__format'>.obj .fbx .ma</span>
+			<div class='search-result__footer'>	
+			<span data-price='4' class='search-result__price  product-page-link'><span class="dollar">&#36;</span>4 </span>
+			<span class='search-result__stats'><span class="stat-item views">1,148</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href="/3d-model/sci-fi-pistol-8765.html" class="product-tools product-tools__premium product-page-link"><span class="product-tool product-tool__zoom"></span><!--span class="product-tool product-tool__add-to-cart" data-seo_url="sci-fi-pistol-8765"></span--></a>
+			</div>
+			
+		</div><div class='search-result  ' data-seo_url='spacecraft-sci-fi-2250'>
+			<div class='search-result__content-wrapper'>
+				
+			<a href='/3d-model/spacecraft-sci-fi-2250.html' class='search-result__thumb-wrapper'>
+				<img class='search-result__thumb' src='https://free3d.com/imgd/s97090-spacecraft-sci-fi-2250.png' alt='Spacecraft SCI FI 3d model' title='Spacecraft SCI FI 3d model' rel='{"pret":"&#36;0","type":".c4d","standard":null,"imgd":"https:\/\/free3d.com\/imgd\/l97090-spacecraft-sci-fi-2250.png"}'>
+				<div class='standard '>
+				</div>
+			</a>
+			<div class='search-result__info-wrapper'>
+			<div class='search-result__title'><a href='/3d-model/spacecraft-sci-fi-2250.html' class='link product-page-link'>Spacecraft SCI FI</a></div>
+			<span class='search-result__format'>.c4d</span>
+			<div class='search-result__footer'>	
+			<span data-price='0' class='search-result__price free  product-page-link'>FREE </span>
+			<span class='search-result__stats'><span class="stat-item downloads">1,526</span></span>
+			
+			</div>
+			</div>
+			
+			<div class='sec_entry_group'></div>
+			<a href='/3d-model/spacecraft-sci-fi-2250.html' class='product-tools product-page-link'><span class='product-tool product-tool__zoom'></span></a>
+			</div>
+			
+		</div></div>
+                    <script>
+                        console.log('Related load time: ' + 0.070654153823853);
+                    </script>
+                </div>
+    
+<!-- Footer Partial
+
+- includes global javascript (performance)
+
+-->
+
+
+<!-- Information DIM container -->
+<!-- populate with JS: .html("content") -->
+<div class="dim info-overlay" style=""><div class="info-cont"></div></div>
+
+<style type="text/css">
+  .change-region{
+    cursor: pointer;
+  }
+  .change-region .ss-earth {
+    font-size: 18px;
+    position: relative;
+    top: 4px;
+    padding-right: 2px;
+  }
+  .change-region .text{
+    font-size: 13px;
+  }
+  .change-region .ss-dropdown {
+    font-size: 9px;
+  }
+  .dropup{
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 0 #484848, 0 2px 10px rgba(0,0,0,.2);
+    margin: -110px 0 0 0;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    cursor: default;
+    display: none;
+    width: 245px;
+  }
+  .dropup:after{
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid white;
+    content: "";
+    height: 0; 
+    margin: 10px 0 0 -6px;
+    position: absolute;
+    width: 0; 
+  }
+
+  .dropup a, .dropup span{
+    text-align: center;
+    width: 71px;
+    display: block; float: left;
+    padding: 5px 0;
+  }
+  .dropup span{
+    color: #333;
+    font-weight: bolder;
+  }
+</style>
+<footer>
+    <div class="content-wrapper">
+      <div class="footer-top">
+          <div class="slice">
+                <div class="awesome-logo">
+                  Free3D
+                </div>
+                <p>Free 3D Models and Commercial Use 3D Models at great prices. free3d.com                <div class="change-region">
+                  <div class="dropup">
+                    <a href='/de/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' hreflang='de'>Deutsch</a><span>English</span><a href='/es/modelo-3d/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' hreflang='es'>Español</a><a href='/fr/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' hreflang='fr'>Français</a><a href='/it/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' hreflang='it'>Italiano</a><a href='/nl/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' hreflang='nl'>Nederlands</a><a href='/pl/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' hreflang='pl'>Polski</a><a href='/pt/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' hreflang='pt'>Português</a><a href='/sv/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' hreflang='sv'>Svenska</a><a href='/tr/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' hreflang='tr'>Türkçe</a><a href='/ru/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' hreflang='ru'>Русский</a><a href='/ko/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' hreflang='ko'>한국어</a><a href='/ja/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' hreflang='ja'>日本語</a><a href='/zh/3d-model/ultra-realistic-sci-fi-earth-high-res-textures-low-end-textures-made-with-blender-279b-959150.html' hreflang='zh-hans'>简体中文</a>                    <div class="clearfix"></div>
+                  </div>
+                  <div class="change-region-button">
+                    <span class="ss-earth"></span>
+                    <span class="text">Change region</span>
+                    <span class="ss-dropdown"></span>
+                  </div>
+                </div>
+            </div>
+            <div class="slice">
+                <div class="middle-links">
+                                      <ul>
+                      <li class="title navigate">Navigate</li>
+                      <li><a href="/sell">Sell with us</a></li>
+                      <!--<li><a href="/pro"><span class="ss-badge"></span>Pro Membership</a></li>-->
+                      <li><a href="/3d-models/" rel="nofollow">Free 3D Models</a></li>
+                      <li><a href="/premium-3d-models/" rel="nofollow">Premium 3D Models</a></li>
+                    </ul>
+                </div>                
+            </div>
+            <div class="slice">
+                <div class="middle-links">
+                    <ul>
+                      <li class="title search">Selections</li>
+                      <li><a href="/3d-models/tree">trees <span class='dark'>3d models</span></a></li>
+                      <li><a href="/3d-models/plant">plants <span class='dark'>3d models</span></a></li>
+                      <li><a href="/3d-models/christmas">christmas <span class='dark'>3d models</span></a></li>
+                      <li><a href="/3d-models/mesh">mesh <span class='dark'>3d models</span></a></li>
+                      <li><a href="/3d-models/car">cars <span class='dark'>3d models</span></a></li>
+                      <li><a href="/3d-models/phone">phone <span class='dark'>3d models</span></a></li>
+                      <li><a href="/3d-models/coral">coral <span class='dark'>3d models</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slice">
+                <div class="middle-links">
+                  <span class="ss-megaphone"></span>
+                    <div class="talk">Talk to us</div>
+                    <b><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c9aaa6a7bda8aabd89afbbacacfaade7aaa6a4">[email&#160;protected]</a></b>
+                </div>
+            </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="footer-bottom">
+          <span class="copy">Copyright &copy; Free3D All rights reserved.</span>
+            <ul class="footer-menu">
+              <li><a href="/about">About</a></li>
+              <li><a href="/contact">Contact</a></li>
+              <li><a href="/faq">FAQ</a></li>
+              <li><a href="/privacy-policy">Privacy Policy</a></li>
+              <li><a href="/terms-conditions">Terms & Conditions</a></li>
+            </ul>
+ 
+      </div>
+    </div>
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+  // 3rd party
+  // Include the UserVoice JavaScript SDK (only needed once on a page)
+  UserVoice=window.UserVoice||[];(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/vRfQ1m7ydIqfxK3IB696A.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})();
+
+  //
+  // UserVoice Javascript SDK developer documentation:
+  // https://www.uservoice.com/o/javascript-sdk
+  //
+
+  // Set colors
+  UserVoice.push(['set', {
+    accent_color: '#448dd6',
+    trigger_color: 'white',
+    trigger_background_color: 'rgba(46, 49, 51, 0.6)'
+  }]);
+
+  // Identify the user and pass traits
+  // To enable, replace sample data with actual user traits and uncomment the line
+  UserVoice.push(['identify', {
+    //email:      'john.doe@example.com', // User’s email address
+    //name:       'John Doe', // User’s real name
+    //created_at: 1364406966, // Unix timestamp for the date the user signed up
+    //id:         123, // Optional: Unique id of the user (if set, this should not change)
+    //type:       'Owner', // Optional: segment your users by type
+    //account: {
+    //  id:           123, // Optional: associate multiple users with a single account
+    //  name:         'Acme, Co.', // Account name
+    //  created_at:   1364406966, // Unix timestamp for the date the account was created
+    //  monthly_rate: 9.99, // Decimal; monthly rate of the account
+    //  ltv:          1495.00, // Decimal; lifetime value of the account
+    //  plan:         'Enhanced' // Plan name for the account
+    //}
+  }]);
+
+  // Add default trigger to the bottom-right corner of the window:
+  UserVoice.push(['addTrigger', { mode: 'contact', trigger_position: 'bottom-right' }]);
+
+  // Or, use your own custom trigger:
+  //UserVoice.push(['addTrigger', '#id', { mode: 'contact' }]);
+
+  // Autoprompt for Satisfaction and SmartVote (only displayed under certain conditions)
+  UserVoice.push(['autoprompt', {}]);
+</script>
+
+<script type="text/javascript" src="/js/slick.min.js"></script>
+</body>
+
+<script>
+    $(document).ready(function(){
+
+            });
+</script>
+</html>

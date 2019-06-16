@@ -17,7 +17,7 @@ using OpenTK.Input;
 using SimpleScene;
 using SimpleScene.Demos;
 
-namespace TestBench0
+namespace Simulation
 {
 	partial class TestBench0 : TestBenchBootstrap
 	{

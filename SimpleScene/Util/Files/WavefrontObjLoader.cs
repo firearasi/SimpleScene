@@ -297,7 +297,18 @@ namespace SimpleScene.Util3d {
                 return System.Drawing.Color.FromArgb(150, 150, 150);
             } else {
                 // this is not a proper color conversion.. just a hack approximation..
-                return System.Drawing.Color.FromArgb((int)(xyzColor.X * 255), (int)(xyzColor.Y * 255), (int)(xyzColor.Z * 255));
+                int r, g, b;
+                r = (int)xyzColor.X * 255;
+                if (r > 255)
+                    r = 255;
+                g = (int)xyzColor.Y * 255;
+                if (g > 255)
+                    g = 255;
+                b = (int)xyzColor.Z * 255;
+                if (b > 255)
+                    b = 255;
+
+                return System.Drawing.Color.FromArgb(r, g, b);
             }
         }
 
