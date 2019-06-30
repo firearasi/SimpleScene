@@ -283,7 +283,7 @@ namespace SimpleScene.Util3d {
             }
             Console.WriteLine("WavefrontObjLoader.cs: end.");
 
-        }
+       }
 
 		public WavefrontObjLoader(string path) 
 		{

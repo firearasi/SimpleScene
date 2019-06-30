@@ -32,7 +32,7 @@ namespace Simulation
 		{
 			base.setupScene();
 
-			var mesh = SSAssetManager.GetInstance<SSMesh_wfOBJ>("./sat/satellite.obj");
+			var mesh = SSAssetManager.GetInstance<SSMesh_wfOBJ>("./sats/cloudsat/cloudsat_v19.obj");
            //var mesh = SSAssetManager.GetInstance<SSMesh_wfOBJ>("./earth4/Model/Globe.obj");
             // add drone
             SSObject satObj = new SSObjectMesh(mesh);
@@ -41,7 +41,7 @@ namespace Simulation
             //satObj.EulerDegAngleOrient(-10.0f,0.0f);
             satObj.Orient(Vector3.UnitX, Vector3.UnitY);
             satObj.Pos = new OpenTK.Vector3(0f, 0f, -20f);
-            satObj.Scale = new OpenTK.Vector3(3f, 3f, 3f);
+            satObj.Scale = new OpenTK.Vector3(1f, 1f, 1f);
 
 			satObj.Name = "drone 1";
 
