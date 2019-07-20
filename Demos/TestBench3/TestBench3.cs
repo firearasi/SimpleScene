@@ -11,7 +11,7 @@ namespace TestBench3
     public class TestBench3 : TestBenchBootstrap
     {
         protected enum MissileLaunchers : int 
-            {AttackerDrone, VandalShip, Camera, End }
+            {AttackerDrone, VandalShip, Camera, End}
         protected enum MissileTargets : int 
             { TargetDrone, VandalShip, Camera, Selected, AttackerDrone, End}
         protected enum HitTimeMode : int 
@@ -380,8 +380,8 @@ namespace TestBench3
             if (timeElapsed <= 0f) return;
 
             // make the target drone move from side to side
-            localTime += timeElapsed;
-			//localTime += timeElapsed * 0.3f;
+            //localTime += timeElapsed;
+			localTime += timeElapsed * 0.3f;
             Vector3 pos = targetDrone.Pos;
             pos.Z = 30f * (float)Math.Sin(localTime);
             targetDrone.Pos = pos;

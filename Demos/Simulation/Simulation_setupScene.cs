@@ -14,7 +14,10 @@ namespace Simulation
 {
 	partial class Simulation : TestBenchBootstrap
 	{
-		protected override void setupHUD()
+        SSObject satObj;
+        protected SSpaceMissileVisualParameters satObjMissileParams;
+
+        protected override void setupHUD()
 		{
 			base.setupHUD();
 
@@ -35,7 +38,7 @@ namespace Simulation
 			var mesh = SSAssetManager.GetInstance<SSMesh_wfOBJ>("./sats/cloudsat/cloudsat_v19.obj");
            //var mesh = SSAssetManager.GetInstance<SSMesh_wfOBJ>("./earth4/Model/Globe.obj");
             // add drone
-            SSObject satObj = new SSObjectMesh(mesh);
+           satObj = new SSObjectMesh(mesh);
 			main3dScene.AddObject(satObj);
             satObj.renderState.lighted = true;
             //satObj.EulerDegAngleOrient(-10.0f,0.0f);
@@ -44,6 +47,13 @@ namespace Simulation
             satObj.Scale = new OpenTK.Vector3(1f, 1f, 1f);
 
 			satObj.Name = "drone 1";
+
+            satObjMissileParams = new SSpaceMissileVisualParameters();
+            satObjMissileParams.ejectionMaxRotationVel = 0.05f;
+            satObjMissileParams.ejectionVelocity = 30f;
+            satObjMissileParams.pursuitActivationTime = 0.1f;
+            satObjMissileParams.ejectionSmokeDuration = 0.5f;
+            satObjMissileParams.ejectionSmokeSizeMax = 5f;
 
             // add second drone
 #if true
@@ -160,5 +170,8 @@ namespace Simulation
 				}
 			}
 		}
-	}
+
+     
+
+    }
 }

@@ -23,11 +23,12 @@ namespace Simulation
 	{
         SSInstancedMeshRenderer asteroidRingRenderer = null;
 		Vector2 ringAngularVelocity = new Vector2 (0.03f, 0.01f);
+        protected float localTime = 0f;
 
-		/// <summary>
-		/// The main entry point for the application.
-		/// </summary>
-		static void Main()
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        static void Main()
 		{
 			// The 'using' idiom guarantees proper resource cleanup.
 			// We request 30 UpdateFrame events per second, and unlimited
@@ -51,12 +52,40 @@ namespace Simulation
 		protected override void OnUpdateFrame(FrameEventArgs e)
 		{
 			base.OnUpdateFrame (e);
-
-			if (asteroidRingRenderer != null) {
+            float timeElapsed = (float)e.Time;
+            if (asteroidRingRenderer != null) {
 				asteroidRingRenderer.EulerDegAngleOrient (ringAngularVelocity.X, ringAngularVelocity.Y);
 			}
-		}
+
+            if (timeElapsed <= 0f) return;
+
+            // make the target drone move from side to side
+            localTime += timeElapsed;
+
+            //Adjust location
+            satObj.Pos= new OpenTK.Vector3(20.0f*(float)Math.Sin(localTime/2.0),0f, 
+                -20.0f*(float)Math.Cos(localTime/2.0));
+             //Adjust Orientation
+            //satObj.Orient(newForward,newUp);
+        }
+
+        protected override void OnRenderFrame(FrameEventArgs e)
+        {
+            base.OnRenderFrame(e);
+            float timeElapsed = (float)e.Time;
+            GL.Color3(System.Drawing.Color.Red);
+
+            GL.Begin(PrimitiveType.Lines);
+
+            GL.Vertex3(20.0f * (float)Math.Sin((localTime - timeElapsed) / 2.0),0f,
+                -20.0f * (float)Math.Cos((localTime - timeElapsed) / 2.0));
+            GL.Vertex3( 20.0f * (float)Math.Sin(localTime / 2.0),0f,
+                -20.0f * (float)Math.Cos(localTime / 2.0));
 
 
-	}
+            GL.End();
+
+
+        }
+    }
 }
