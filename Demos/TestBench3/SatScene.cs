@@ -8,7 +8,7 @@ using OpenTK.Graphics;
 
 namespace TestBench3
 {
-    public class TestBench3 : TestBenchBootstrap
+    public class SatScene : TestBenchBootstrap
     {
         protected enum MissileLaunchers : int 
             {AttackerDrone, VandalShip, Camera, End}
@@ -43,7 +43,7 @@ namespace TestBench3
 
         protected float localTime = 0f;
 
-        public TestBench3 ()
+        public SatScene ()
             : base("TestBench3: Missiles")
         {
             if (shadowmapDebugQuad != null) {
@@ -56,7 +56,7 @@ namespace TestBench3
             // The 'using' idiom guarantees proper resource cleanup.
             // We request 30 UpdateFrame events per second, and unlimited
             // RenderFrame events (as fast as the computer can handle).
-            using (var game = new TestBench3()) {
+            using (var game = new SatScene()) {
                 game.Run(30.0);
             }
         }
@@ -109,7 +109,7 @@ namespace TestBench3
             explosionManager = new SExplosionRenderer ();
             explosionManager.parameters.doShockwave = false;
             explosionManager.parameters.doDebris = false;
-            explosionManager.parameters.timeScale = 3f;
+            explosionManager.parameters.timeScale = 10f;
             //explosionManager.renderState.visible = false;
             alpha3dScene.AddObject(explosionManager);
 

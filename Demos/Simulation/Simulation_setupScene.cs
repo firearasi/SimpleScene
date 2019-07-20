@@ -64,7 +64,7 @@ namespace Simulation
 			//drone2Obj.EulerDegAngleOrient(0f, 0f);
 			earthObj.Pos = new OpenTK.Vector3(0f, 0f, 0f);
             earthObj.Scale = new OpenTK.Vector3(6f, 6f, 6f);
-			earthObj.Name = "drone 2";
+			earthObj.Name = "earth";
 #endif
             // instanced asteroid ring
             if (false)
