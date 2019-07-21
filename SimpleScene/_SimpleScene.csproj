@@ -84,7 +84,6 @@
     <Compile Include="Objects\SSObjectCube.cs" />
     <Compile Include="Objects\SSObjectGDISurface_Text.cs" />
     <Compile Include="Objects\SSObjectMesh.cs" />
-    <Compile Include="Objects\SSObjectRay.cs" />
     <Compile Include="Objects\SSObjectTriangle.cs" />
     <Compile Include="Util\OpenTKHelper.cs" />
     <Compile Include="Util\RunningAverage.cs" />
@@ -199,6 +198,8 @@
       <Link>Core\Core\SSInstancedCylinderShaderProgram.cs</Link>
     </Compile>
     <Compile Include="Meshes\Shapes\SQuad.cs" />
+    <Compile Include="Objects\SSObjectCone.cs" />
+    <Compile Include="Meshes\SSObjectRay.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup />

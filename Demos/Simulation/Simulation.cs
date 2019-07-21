@@ -64,20 +64,19 @@ namespace Simulation
             if (timeElapsed <= 0f) return;
 
             // make the target drone move from side to side
-            var duration = 10.0f;
+            var duration = 40.0f;
             localTime += timeElapsed;
 
             //Adjust location
             var newPos= new OpenTK.Vector3(20.0f*(float)Math.Sin(localTime/duration),0f, 
                 -20.0f*(float)Math.Cos(localTime/duration));
             var dir = (newPos - satObj.Pos);
-            var dirNormed = dir;
 
-            dirNormed.Normalize();
+
+            // Drawing satellite trajectory
             SSRay ray = new SSRay(satObj.Pos, dir);
             SSObjectRay objRay = new SSObjectRay(ray);
-           
-            // Drawing satellite trajectory
+
             trajectories.Add(objRay);
             main3dScene.AddObject(objRay);
 
@@ -93,6 +92,9 @@ namespace Simulation
             //Adjust sat Position
             satObj.Pos = newPos;
             //Adjust Orientation
+            var dirNormed = dir;
+            dirNormed.Normalize();
+           
             satObj.Orient(dirNormed,Vector3.UnitY);
         }
 

@@ -39,7 +39,7 @@ namespace Simulation
            //var mesh = SSAssetManager.GetInstance<SSMesh_wfOBJ>("./earth4/Model/Globe.obj");
             // add drone
            satObj = new SSObjectMesh(mesh);
-			main3dScene.AddObject(satObj);
+           main3dScene.AddObject(satObj);
             satObj.renderState.lighted = true;
             //satObj.EulerDegAngleOrient(-10.0f,0.0f);
             satObj.Orient(Vector3.UnitX, Vector3.UnitY);
@@ -55,10 +55,10 @@ namespace Simulation
             satObjMissileParams.ejectionSmokeDuration = 0.5f;
             satObjMissileParams.ejectionSmokeSizeMax = 5f;
 
-           
+
 
             // add second drone
-#if true
+#if false
             SSObject earthObj = new SSObjectMesh(
 				SSAssetManager.GetInstance<SSMesh_wfOBJ>("./earth5/Earth.obj"));
 			main3dScene.AddObject(earthObj);
@@ -68,6 +68,10 @@ namespace Simulation
             earthObj.Scale = new OpenTK.Vector3(6f, 6f, 6f);
 			earthObj.Name = "earth";
 #endif
+            double halfAngle = 20.0 * Math.PI / 180.0;
+            SSObjectCone cone = new SSObjectCone(new Vector3(0, 0, 0), new Vector3(0, 0, 10),(float) halfAngle, 20);
+            main3dScene.AddObject(cone);
+
             // instanced asteroid ring
             if (false)
 			{
