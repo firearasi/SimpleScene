@@ -60,13 +60,17 @@ namespace Simulation
             if (timeElapsed <= 0f) return;
 
             // make the target drone move from side to side
+            var duration = 10.0f;
             localTime += timeElapsed;
 
             //Adjust location
-            satObj.Pos= new OpenTK.Vector3(20.0f*(float)Math.Sin(localTime/2.0),0f, 
-                -20.0f*(float)Math.Cos(localTime/2.0));
+            var newPos= new OpenTK.Vector3(20.0f*(float)Math.Sin(localTime/duration),0f, 
+                -20.0f*(float)Math.Cos(localTime/duration));
+            var dir = (newPos - satObj.Pos);
+            dir.Normalize();
+            satObj.Pos = newPos;
              //Adjust Orientation
-            //satObj.Orient(newForward,newUp);
+            satObj.Orient(dir,Vector3.UnitY);
         }
 
         protected override void OnRenderFrame(FrameEventArgs e)
