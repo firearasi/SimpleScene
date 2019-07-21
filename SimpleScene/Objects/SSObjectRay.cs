@@ -23,7 +23,7 @@ namespace SimpleScene
 
 			GL.Begin(PrimitiveType.Lines);
 			GL.Color3(1.0f,1f,1f);   GL.Vertex3(0,0,0);
-            GL.Color3(1.0f,0.5f,0.5f);   GL.Vertex3(this.ray.dir * 10.0f);
+            GL.Color3(1.0f,0.5f,0.5f);   GL.Vertex3(this.ray.dir);
             GL.End();
         }
         public SSObjectRay (SSRay ray) : base() {

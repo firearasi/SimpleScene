@@ -55,6 +55,8 @@ namespace Simulation
             satObjMissileParams.ejectionSmokeDuration = 0.5f;
             satObjMissileParams.ejectionSmokeSizeMax = 5f;
 
+           
+
             // add second drone
 #if true
             SSObject earthObj = new SSObjectMesh(

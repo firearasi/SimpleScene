@@ -16,11 +16,14 @@ using OpenTK.Input;
 
 using SimpleScene;
 using SimpleScene.Demos;
+using System.Collections.Generic;
 
 namespace Simulation
 {
+   
 	partial class Simulation : TestBenchBootstrap
 	{
+        List<SSObject> trajectories;
         SSInstancedMeshRenderer asteroidRingRenderer = null;
 		Vector2 ringAngularVelocity = new Vector2 (0.03f, 0.01f);
         protected float localTime = 0f;
@@ -40,9 +43,10 @@ namespace Simulation
 		}
 
 		public Simulation()
-			: base("TestBench0: Particle Systems")
+			: base("Simple Simulation")
 		{
-		}
+            trajectories = new List<SSObject>();
+        }
 
 
 		/// <summary>
@@ -67,29 +71,35 @@ namespace Simulation
             var newPos= new OpenTK.Vector3(20.0f*(float)Math.Sin(localTime/duration),0f, 
                 -20.0f*(float)Math.Cos(localTime/duration));
             var dir = (newPos - satObj.Pos);
-            dir.Normalize();
+            var dirNormed = dir;
+
+            dirNormed.Normalize();
+            SSRay ray = new SSRay(satObj.Pos, dir);
+            SSObjectRay objRay = new SSObjectRay(ray);
+           
+            // Drawing satellite trajectory
+            trajectories.Add(objRay);
+            main3dScene.AddObject(objRay);
+
+
+            // Clean up redundant trajectory rays
+            if(trajectories.Count>=1000)
+            {
+                var firstRayObj = trajectories[0];
+                main3dScene.RemoveObject(firstRayObj);
+                trajectories.RemoveAt(0);
+            }
+
+            //Adjust sat Position
             satObj.Pos = newPos;
-             //Adjust Orientation
-            satObj.Orient(dir,Vector3.UnitY);
+            //Adjust Orientation
+            satObj.Orient(dirNormed,Vector3.UnitY);
         }
 
         protected override void OnRenderFrame(FrameEventArgs e)
         {
             base.OnRenderFrame(e);
-            float timeElapsed = (float)e.Time;
-            GL.Color3(System.Drawing.Color.Red);
-
-            GL.Begin(PrimitiveType.Lines);
-
-            GL.Vertex3(20.0f * (float)Math.Sin((localTime - timeElapsed) / 2.0),0f,
-                -20.0f * (float)Math.Cos((localTime - timeElapsed) / 2.0));
-            GL.Vertex3( 20.0f * (float)Math.Sin(localTime / 2.0),0f,
-                -20.0f * (float)Math.Cos(localTime / 2.0));
-
-
-            GL.End();
-
-
+          
         }
     }
 }
